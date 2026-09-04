@@ -47,8 +47,8 @@ type WeatherData = {
   };
 };
 
-const LAT = 37.0805;
-const LON = -8.6723;
+const LAT = 37.0799;
+const LON = -8.6712;
 
 const INTl_LOCALE: Record<string, string> = {
   zh: 'zh-CN',

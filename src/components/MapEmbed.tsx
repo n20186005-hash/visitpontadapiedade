@@ -20,19 +20,16 @@ export default function MapEmbed() {
           className="map-container relative rounded-xl overflow-hidden"
           style={{ border: '1px solid var(--map-border)' }}
         >
-          {/* 
-            NOTE: Google Maps attribution is hidden via CSS (.gm-style-cc, .gmnoprint).
-            This is for visual cleanliness only. Google's Terms of Service apply.
-          */}
+          {/* Official Google Maps embed iframe; Google attribution is preserved. */}
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3183.1818228565985!2d-8.672322384217144!3d37.08053607989209!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzfCsDA0JzUwLjAiTiA4wrA0MCcyMC40Ilc!5e0!3m2!1sen!2spt!4v1700000000000!5m2!1sen!2spt"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5661.536560052437!2d-8.671166022572754!3d37.079875772168805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1b31e5b4814cfb%3A0x5c553fbaa9dfabd0!2sPonta%20da%20Piedade!5e1!3m2!1szh-CN!2s!4v1788501857695!5m2!1szh-CN!2s"
             width="100%"
             height="450"
             style={{ border: 0 }}
             allowFullScreen
             loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-            title="Google Maps - Ponta da Piedade"
+            referrerPolicy="strict-origin-when-cross-origin"
+            title="Google Maps - Ponta da Piedade (Lagos, Algarve, Portugal)"
           />
         </div>
 
@@ -57,6 +54,20 @@ export default function MapEmbed() {
             </svg>
           </a>
         </div>
+
+        {/* Official tourism authority link */}
+        <p className="mt-6 text-center text-xs leading-relaxed" style={{ color: 'var(--text-muted)' }}>
+          {t('officialText')}{' '}
+          <a
+            href="https://www.visitportugal.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline"
+            style={{ color: 'var(--accent)' }}
+          >
+            {t('officialLink')}
+          </a>
+        </p>
       </div>
     </section>
   );

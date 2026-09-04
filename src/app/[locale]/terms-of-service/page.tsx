@@ -8,23 +8,32 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  const baseUrl = 'https://greatyarmouthbeach.com';
-  const itUrl = `${baseUrl}/terms-of-service`;
-  const enUrl = `${baseUrl}/en/terms-of-service`;
-  const frUrl = `${baseUrl}/fr/terms-of-service`;
-  const zhUrl = `${baseUrl}/zh-Hant/terms-of-service`;
-  const selfUrl = locale === 'it' ? itUrl : locale === 'en' ? enUrl : locale === 'fr' ? frUrl : zhUrl;
+  const messages = (await import(`@/messages/${locale}.json`)).default as any;
+  const siteUrl = 'https://visitpontadapiedade.com';
+  const paths: Record<string, string> = {
+    zh: '/zh/terms-of-service',
+    en: '/en/terms-of-service',
+    pt: '/pt/terms-of-service',
+    mwl: '/mwl/terms-of-service',
+  };
+  const selfPath = paths[locale] || paths.pt;
+  const selfUrl = `${siteUrl}${selfPath}`;
 
   return {
+    title: messages?.terms?.title,
     alternates: {
       canonical: selfUrl,
       languages: {
-        'it': itUrl,
-        'en': enUrl,
-        'fr': frUrl,
-        'zh-Hant': zhUrl,
-        'x-default': itUrl,
-      },
+        zh: `${siteUrl}${paths.zh}`,
+        en: `${siteUrl}${paths.en}`,
+        pt: `${siteUrl}${paths.pt}`,
+        mwl: `${siteUrl}${paths.mwl}`,
+        'x-default': `${siteUrl}${paths.pt}`,
+      } as Record<string, string>,
+    },
+    robots: {
+      index: true,
+      follow: true,
     },
   };
 }
@@ -34,7 +43,7 @@ function TermsContent() {
   const ht = useTranslations('header');
   const locale = useLocale();
   const messages = useMessages() as any;
-  const homeHref = locale === 'it' ? '/' : `/${locale}`;
+  const homeHref = `/${locale}`;
   const sections = (messages?.terms?.sections || []) as Array<{ heading: string; content: string }>;
 
   return (

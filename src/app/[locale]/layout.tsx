@@ -25,6 +25,9 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const messages = (await import(`@/messages/${locale}.json`)).default;
+  const imgAlt =
+    (messages as any)?.hero?.imgAlt ||
+    'Ponta da Piedade - Main view in Lagos, Algarve, Portugal';
 
   const zhUrl = `${SITE_URL}/zh`;
   const enUrl = `${SITE_URL}/en`;
@@ -64,7 +67,7 @@ export async function generateMetadata({
           url: imageUrl,
           width: 1600,
           height: 1067,
-          alt: 'Ponta da Piedade - Lagos, Algarve, Portugal',
+          alt: imgAlt,
         },
       ],
     },
@@ -107,7 +110,7 @@ export default async function LocaleLayout({
       {
         '@type': 'WebSite',
         '@id': `${SITE_URL}/#website`,
-        url: `${SITE_URL}/${locale === 'pt' ? '' : locale}`,
+        url: `${SITE_URL}/${locale}`,
         name: 'Ponta da Piedade',
         inLanguage: langInfo.lang,
         publisher: {
@@ -119,13 +122,13 @@ export default async function LocaleLayout({
         '@id': `${SITE_URL}/#organization`,
         name: 'Ponta da Piedade Visitor Guide',
         url: SITE_URL,
-        logo: `${SITE_URL}/favicon.ico`,
+        logo: `${SITE_URL}/icons/icon.svg`,
       },
       {
         '@type': 'TouristAttraction',
         '@id': `${SITE_URL}/${locale}/#attraction`,
         name: 'Ponta da Piedade',
-        alternateName: ['Ponta da Piedade (Lagos)', 'Farol da Ponta da Piedade'],
+        alternateName: ['Ponta da Piedade (Lagos)', 'Ponta da Piedade cliffs, Lagos'],
         description: meta.description || '',
         url: `${SITE_URL}/${locale}`,
         isAccessibleForFree: true,
@@ -144,15 +147,15 @@ export default async function LocaleLayout({
         },
         geo: {
           '@type': 'GeoCoordinates',
-          latitude: 37.0805,
-          longitude: -8.6723,
+          latitude: 37.079876,
+          longitude: -8.671166,
         },
         telephone: basic.phoneValue || '+351964875617',
         hasMap: MAPS_URL,
         sameAs: [
           MAPS_URL,
-          'https://www.visitportugal.com/en/content/ponta-da-piedade',
-          'https://www.amn.pt/DF/Paginas/FaroldaPontadaPiedade.aspx',
+          'https://www.visitportugal.com',
+          'https://www.cm-lagos.pt',
         ],
         openingHoursSpecification: {
           '@type': 'OpeningHoursSpecification',
@@ -195,6 +198,55 @@ export default async function LocaleLayout({
                     document.documentElement.setAttribute('data-theme', 'dark');
                   }
                 } catch(e) {}
+              })();
+            `,
+          }}
+        />
+        <link rel="icon" type="image/svg+xml" href="/icons/icon.svg" />
+        <link rel="apple-touch-icon" href="/icons/icon.svg" />
+        <meta name="apple-mobile-web-app-title" content="Ponta da Piedade" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function() {
+                try {
+                  function loadAnalytics() {
+                    if (window.__gaLoaded) { return; }
+                    window.__gaLoaded = true;
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag() { window.dataLayer.push(arguments); }
+                    window.gtag = gtag;
+                    gtag('js', new Date());
+                    gtag('config', 'G-HXM22WWPKP', { 'anonymize_ip': true });
+                    var s = document.createElement('script');
+                    s.async = true;
+                    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-HXM22WWPKP';
+                    document.head.appendChild(s);
+                  }
+                  var prefs = JSON.parse(localStorage.getItem('cookiePrefs') || '{}');
+                  if (prefs.analytics) { loadAnalytics(); }
+                  window.addEventListener('consent-updated', function() {
+                    try {
+                      var p = JSON.parse(localStorage.getItem('cookiePrefs') || '{}');
+                      if (p.analytics) { loadAnalytics(); }
+                    } catch (e2) {}
+                  });
+                } catch (e) {}
+              })();
+            `,
+          }}
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function() {
+                try {
+                  if ('serviceWorker' in navigator && location.protocol === 'https:') {
+                    window.addEventListener('load', function() {
+                      navigator.serviceWorker.register('/sw.js').catch(function() {});
+                    });
+                  }
+                } catch (e) {}
               })();
             `,
           }}

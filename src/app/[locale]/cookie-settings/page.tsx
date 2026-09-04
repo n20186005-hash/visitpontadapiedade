@@ -7,22 +7,33 @@ export async function generateMetadata({
 }: {
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
-  const baseUrl = 'https://greatyarmouthbeach.com';
-  const itUrl = `${baseUrl}/cookie-settings`;
-  const enUrl = `${baseUrl}/en/cookie-settings`;
-  const frUrl = `${baseUrl}/fr/cookie-settings`;
-  const zhUrl = `${baseUrl}/zh-Hant/cookie-settings`;
+  const { locale } = await params;
+  const messages = (await import(`@/messages/${locale}.json`)).default as any;
+  const siteUrl = 'https://visitpontadapiedade.com';
+  const paths: Record<string, string> = {
+    zh: '/zh/cookie-settings',
+    en: '/en/cookie-settings',
+    pt: '/pt/cookie-settings',
+    mwl: '/mwl/cookie-settings',
+  };
+  const selfPath = paths[locale] || paths.pt;
+  const selfUrl = `${siteUrl}${selfPath}`;
 
   return {
+    title: messages?.cookieSettings?.title,
     alternates: {
-      canonical: itUrl,
+      canonical: selfUrl,
       languages: {
-        'it': itUrl,
-        'en': enUrl,
-        'fr': frUrl,
-        'zh-Hant': zhUrl,
-        'x-default': itUrl,
-      },
+        zh: `${siteUrl}${paths.zh}`,
+        en: `${siteUrl}${paths.en}`,
+        pt: `${siteUrl}${paths.pt}`,
+        mwl: `${siteUrl}${paths.mwl}`,
+        'x-default': `${siteUrl}${paths.pt}`,
+      } as Record<string, string>,
+    },
+    robots: {
+      index: true,
+      follow: true,
     },
   };
 }

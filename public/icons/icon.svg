@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Ponta da Piedade, Lagos, Portugal">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#aee0ef"/>
+      <stop offset="1" stop-color="#6cb6cc"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0e5a78"/>
+      <stop offset="1" stop-color="#062b3d"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#sky)"/>
+  <circle cx="396" cy="132" r="64" fill="#ffe08a"/>
+  <path d="M0 340 C 92 312 158 356 244 330 C 330 304 402 348 512 318 L 512 512 L 0 512 Z" fill="url(#sea)"/>
+  <path d="M0 512 L 0 424 L 84 384 L 150 428 L 236 376 L 316 430 L 400 378 L 470 420 L 512 396 L 512 512 Z" fill="#0b4257"/>
+  <g transform="translate(196 268)">
+    <rect x="-9" y="-118" width="18" height="118" rx="2" fill="#f7fbfd"/>
+    <rect x="-13" y="-40" width="26" height="46" rx="3" fill="#dce7ea"/>
+    <path d="M -9 -118 L 9 -118 L 4 -138 L -4 -138 Z" fill="#f7fbfd"/>
+    <circle cx="0" cy="-148" r="9" fill="#ffe08a" stroke="#e0a33d" stroke-width="3"/>
+    <path d="M -26 -30 L 26 -30 L 22 -18 L -22 -18 Z" fill="#3a7a8d"/>
+  </g>
+  <path d="M 120 512 C 140 470 170 452 214 452 C 250 452 268 464 280 512 Z" fill="#e0a33d" opacity="0.35"/>
+</svg>

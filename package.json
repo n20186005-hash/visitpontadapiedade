@@ -1,5 +1,5 @@
 {
-  "name": "thekingsgarden",
+  "name": "visitpontadapiedade",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "check:i18n": "node scripts/check-parity.mjs",
     "optimize:images": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/optimize-gallery.ps1"
   },
   "dependencies": {

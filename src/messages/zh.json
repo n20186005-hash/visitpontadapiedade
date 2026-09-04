@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Ponta da Piedade 佩达德角 | 葡萄牙阿尔加维海岸的绝美岩层与海蚀洞 - 拉哥斯必游景点",
+    "title": "Ponta da Piedade（拉哥斯 Lagos）- 旅游指南与位置",
     "description": "探索葡萄牙拉哥斯Ponta da Piedade（佩达德角）的完整指南。了解乘船游览、悬崖步道、开放时间、交通路线及拍照攻略。阿尔加维海岸最壮丽的自然奇观。"
   },
   "header": {
@@ -11,12 +11,13 @@
     "backToHome": "返回首页"
   },
   "hero": {
-    "title": "Ponta da Piedade",
+    "title": "Ponta da Piedade（拉哥斯 Lagos）",
     "subtitle": "阿尔加维海岸的绝美岩层 · 葡萄牙自然奇观",
     "rating": "4.8",
     "reviewCount": "26,811",
     "hours": "全天开放",
-    "openMaps": "查看位置"
+    "openMaps": "查看位置",
+    "imgAlt": "Ponta da Piedade（佩达德角）- 拉哥斯（Lagos）主景"
   },
   "intro": {
     "title": "探索佩达德角 (Ponta da Piedade)",
@@ -38,7 +39,14 @@
         "建有安全的悬崖木栈道，适合全年龄段观景",
         "葡萄牙南部最佳日落观赏点之一"
       ]
-    }
+    },
+    "surroundings": "欢迎来到佩达德角（Ponta da Piedade）——葡萄牙阿尔加维大区拉哥斯（Lagos）的标志性海蚀岩层。游览之余，还可顺路探访周边的卡米洛海滩（Praia do Camilo）、多娜安娜海滩（Praia de Dona Ana）以及拉哥斯码头旁的历史古迹庞塔班代拉堡（Forte da Ponta da Bandeira）。",
+    "breadcrumb": [
+      "Ponta da Piedade",
+      "拉哥斯 Lagos",
+      "法鲁 Faro · 阿尔加维 Algarve",
+      "葡萄牙"
+    ]
   },
   "knowledge": {
     "title": "发现佩达德角的魅力",
@@ -287,7 +295,9 @@
   "mapSection": {
     "title": "交通指南",
     "subtitle": "Estr. da Ponta da Piedade, 8600-544 Lagos, 葡萄牙",
-    "openMaps": "在 Google Maps 查看"
+    "openMaps": "在 Google Maps 查看",
+    "officialText": "关于拉哥斯·阿尔加维 Ponta da Piedade（佩达德角）的官方与最新旅游信息，请访问：",
+    "officialLink": "Visit Portugal 佩达德角官方页面"
   },
   "footer": {
     "rights": "© 2026 Ponta da Piedade. 保留所有权利。",
@@ -302,31 +312,32 @@
     },
     "resources": [
       {
-        "name": "Visit Portugal 葡萄牙国家旅游局",
-        "url": "https://www.visitportugal.com"
+        "name": "葡萄牙国家旅游局 (Visit Portugal)",
+        "url": "https://www.visitportugal.com/en"
       },
       {
-        "name": "Turismo do Algarve 阿尔加维大区旅游局",
+        "name": "葡萄牙国家文化遗产保护总局 (Património Cultural, I.P.)",
+        "url": "https://www.patrimoniocultural.gov.pt"
+      },
+      {
+        "name": "阿尔加维大区旅游局 (Turismo do Algarve)",
         "url": "https://www.turismodoalgarve.pt"
       },
       {
-        "name": "拉哥斯市政厅 (Câmara Municipal de Lagos)",
-        "url": "https://www.cm-lagos.pt"
-      },
-      {
-        "name": "葡萄牙海事管理局 AMN（灯塔与航海）",
-        "url": "https://www.amn.pt"
-      },
-      {
-        "name": "葡萄牙环境署 (Agência Portuguesa do Ambiente)",
+        "name": "葡萄牙环境署 (Agência Portuguesa do Ambiente, APA)",
         "url": "https://apambiente.pt"
+      },
+      {
+        "name": "葡萄牙出入境与内政管理局 (AIMA)",
+        "url": "https://aima.gov.pt"
       }
     ],
-    "disclaimer": "本网站是一个独立的第三方旅游资讯项目。我们与当地政府或其他官方机构没有任何关联。"
+    "disclaimer": "本网站是一个独立的第三方旅游资讯项目。我们与当地政府或其他官方机构没有任何关联。",
+    "photoCredit": "本网站所展示的所有图片，其产权及版权均归原摄影者所有。"
   },
   "privacy": {
     "title": "隐私政策",
-    "lastUpdated": "最后更新：2026年4月",
+    "lastUpdated": "最后更新：2026年9月",
     "sections": [
       {
         "heading": "1. 信息收集",
@@ -348,7 +359,7 @@
   },
   "terms": {
     "title": "服务条款",
-    "lastUpdated": "最后更新：2026年4月",
+    "lastUpdated": "最后更新：2026年9月",
     "sections": [
       {
         "heading": "1. 接受条款",
@@ -607,45 +618,8 @@
       }
     ]
   },
-  "recommendations": {
-    "title": "探索更多",
-    "attractionsTitle": "附近景点",
-    "toursTitle": "推荐行程与活动",
-    "attractions": [
-      {
-        "name": "多纳安娜海滩 (Praia de Dona Ana)",
-        "url": "https://www.visitportugal.com"
-      },
-      {
-        "name": "卡米洛海滩 (Praia do Camilo)",
-        "url": "https://www.visitportugal.com"
-      },
-      {
-        "name": "拉哥斯老城区",
-        "url": "https://www.visitportugal.com"
-      },
-      {
-        "name": "梅亚海滩 (Meia Praia)",
-        "url": "https://www.visitportugal.com"
-      }
-    ],
-    "tours": [
-      {
-        "name": "佩达德角洞穴游船之旅",
-        "url": "https://www.visitportugal.com"
-      },
-      {
-        "name": "阿尔加维海岸皮划艇探险",
-        "url": "https://www.visitportugal.com"
-      },
-      {
-        "name": "拉哥斯双体船出海与海豚寻踪",
-        "url": "https://www.visitportugal.com"
-      },
-      {
-        "name": "悬崖日落徒步游",
-        "url": "https://www.visitportugal.com"
-      }
-    ]
+  "sourcesSection": {
+    "title": "资料来源与编辑说明",
+    "note": "本指南为独立、非商业化的游客信息页，依据上方列出的官方公开资料来源编撰。评分与评论数量来自 Google Maps，可能随时间变化。内容最近审校时间：2026 年 9 月。"
   }
 }

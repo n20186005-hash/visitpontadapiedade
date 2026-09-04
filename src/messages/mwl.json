@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Ponta da Piedade | Stunning Rock Formations & Sea Caves in Algarve, Portugal - Best Lagos Attraction",
+    "title": "Ponta da Piedade (Lagos, Algarve) - Visitor Guide & Location",
     "description": "Complete guide to exploring Ponta da Piedade in Lagos, Portugal. Learn about boat tours, cliff walks, opening hours, transportation, and photo spots. The Algarve's most spectacular natural wonder."
   },
   "header": {
@@ -11,12 +11,13 @@
     "backToHome": "Back to Home"
   },
   "hero": {
-    "title": "Ponta da Piedade",
+    "title": "Ponta da Piedade (Lagos)",
     "subtitle": "Stunning Rock Formations of the Algarve · Portugal's Natural Wonder",
     "rating": "4.8",
     "reviewCount": "26,811",
     "hours": "Open 24 Hours",
-    "openMaps": "View Location"
+    "openMaps": "View Location",
+    "imgAlt": "Ponta da Piedade - Main view in Lagos, Algarve, Portugal"
   },
   "intro": {
     "title": "Explore Ponta da Piedade",
@@ -38,7 +39,14 @@
         "Safe wooden cliff boardwalks suitable for all ages",
         "One of the best sunset viewing spots in southern Portugal"
       ]
-    }
+    },
+    "surroundings": "Welcome to Ponta da Piedade, the iconic sea-cliff landmark of Lagos in Portugal's Algarve region. While visiting, travellers can easily combine the cliffs with other nearby attractions, such as Praia do Camilo, Praia de Dona Ana and the historic Forte da Ponta da Bandeira beside the Marina de Lagos.",
+    "breadcrumb": [
+      "Ponta da Piedade",
+      "Lagos",
+      "Faro (Algarve)",
+      "Portugal"
+    ]
   },
   "knowledge": {
     "title": "Discover the Charm of Ponta da Piedade",
@@ -287,7 +295,9 @@
   "mapSection": {
     "title": "Transportation Guide",
     "subtitle": "Estr. da Ponta da Piedade, 8600-544 Lagos, Portugal",
-    "openMaps": "View on Google Maps"
+    "openMaps": "View on Google Maps",
+    "officialText": "For official and up-to-date tourism information about Ponta da Piedade in Lagos, Algarve, Portugal, visit:",
+    "officialLink": "Ponta da Piedade - Visit Portugal official page"
   },
   "footer": {
     "rights": "© 2026 Ponta da Piedade. All rights reserved.",
@@ -302,31 +312,32 @@
     },
     "resources": [
       {
-        "name": "Visit Portugal (National Tourism Board)",
-        "url": "https://www.visitportugal.com"
+        "name": "Turismo de Portugal (Visit Portugal)",
+        "url": "https://www.visitportugal.com/en"
       },
       {
-        "name": "Turismo do Algarve (Regional Tourism Board)",
+        "name": "Património Cultural, I.P. (Direção-Geral do Património Cultural)",
+        "url": "https://www.patrimoniocultural.gov.pt"
+      },
+      {
+        "name": "Região de Turismo do Algarve",
         "url": "https://www.turismodoalgarve.pt"
       },
       {
-        "name": "Lagos City Council",
-        "url": "https://www.cm-lagos.pt"
-      },
-      {
-        "name": "Portuguese Maritime Authority – Lighthouses",
-        "url": "https://www.amn.pt"
-      },
-      {
-        "name": "Portuguese Environment Agency",
+        "name": "Agência Portuguesa do Ambiente (APA)",
         "url": "https://apambiente.pt"
+      },
+      {
+        "name": "AIMA (Agência para a Integração, Migrações e Asilo)",
+        "url": "https://aima.gov.pt"
       }
     ],
-    "disclaimer": "This website is an independent third-party travel information project. We have no affiliation with local government or other official institutions."
+    "disclaimer": "This website is an independent third-party travel information project. We have no affiliation with local government or other official institutions.",
+    "photoCredit": "All photos displayed on this website remain the property of their original photographers and are subject to copyright."
   },
   "privacy": {
     "title": "Privacy Policy",
-    "lastUpdated": "Last Updated: April 2026",
+    "lastUpdated": "Last Updated: September 2026",
     "sections": [
       {
         "heading": "1. Information Collection",
@@ -348,7 +359,7 @@
   },
   "terms": {
     "title": "Terms of Service",
-    "lastUpdated": "Last Updated: April 2026",
+    "lastUpdated": "Last Updated: September 2026",
     "sections": [
       {
         "heading": "1. Acceptance of Terms",
@@ -418,47 +429,7 @@
     "title": "About Ponta da Piedade",
     "text": "Ponta da Piedade is one of the most famous natural landscapes in the Algarve region of Portugal, jointly maintained by the Lagos municipality and relevant nature conservation agencies.\n\nAs a masterpiece sculpted by nature over tens of millions of years, this golden cliff coast is not only the pride of Portugal but also a top destination for global tourists exploring the Atlantic coastal scenery. The scenic area is committed to providing visitors with a safe and stunning viewing experience while protecting the fragile geological environment."
   },
-  "recommendations": {
-    "title": "Explore More",
-    "attractionsTitle": "Nearby Attractions",
-    "toursTitle": "Recommended Tours & Activities",
-    "attractions": [
-      {
-        "name": "Praia de Dona Ana",
-        "url": "https://www.visitportugal.com"
-      },
-      {
-        "name": "Praia do Camilo",
-        "url": "https://www.visitportugal.com"
-      },
-      {
-        "name": "Lagos Old Town",
-        "url": "https://www.visitportugal.com"
-      },
-      {
-        "name": "Meia Praia",
-        "url": "https://www.visitportugal.com"
-      }
-    ],
-    "tours": [
-      {
-        "name": "Ponta da Piedade Cave Boat Tour",
-        "url": "https://www.visitportugal.com"
-      },
-      {
-        "name": "Algarve Coast Kayak Adventure",
-        "url": "https://www.visitportugal.com"
-      },
-      {
-        "name": "Lagos Catamaran Cruise & Dolphin Watching",
-        "url": "https://www.visitportugal.com"
-      },
-      {
-        "name": "Cliff Sunset Hiking Tour",
-        "url": "https://www.visitportugal.com"
-      }
-    ]
-  },
+
   "weather": {
     "title": "Weather & Forecast",
     "subtitle": "Current conditions and the outlook for the coming days at Ponta da Piedade (Lagos).",
@@ -647,5 +618,9 @@
         "a": "Spring and autumn offer mild temperatures and fewer people. Early morning has excellent light and smaller crowds; late afternoon brings a spectacular sunset, but parking and traffic increase."
       }
     ]
+  },
+  "sourcesSection": {
+    "title": "Sources & Editorial Note",
+    "note": "This is an independent, non-commercial visitor guide prepared from official public sources (listed above). Ratings and review counts come from Google Maps and may change over time. Content was last reviewed in September 2026."
   }
 }

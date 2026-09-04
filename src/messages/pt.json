@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Ponta da Piedade | Deslumbrantes Formações Rochosas e Grutas no Algarve, Portugal",
+    "title": "Ponta da Piedade (Lagos) - Guia do Visitante e Localização",
     "description": "Guia completo para explorar a Ponta da Piedade em Lagos, Portugal. Saiba sobre passeios de barco, caminhadas pelas falésias, horários, transportes e muito mais."
   },
   "header": {
@@ -11,12 +11,13 @@
     "backToHome": "Voltar ao Início"
   },
   "hero": {
-    "title": "Ponta da Piedade",
+    "title": "Ponta da Piedade (Lagos)",
     "subtitle": "Deslumbrantes Formações Rochosas do Algarve · Maravilha Natural de Portugal",
     "rating": "4.8",
     "reviewCount": "26,811",
     "hours": "Aberto 24 Horas",
-    "openMaps": "Ver Localização"
+    "openMaps": "Ver Localização",
+    "imgAlt": "Ponta da Piedade - Vista principal em Lagos, Algarve, Portugal"
   },
   "intro": {
     "title": "Explore a Ponta da Piedade",
@@ -38,7 +39,14 @@
         "Passadiços de madeira seguros adequados a todas as idades",
         "Um dos melhores locais para ver o pôr do sol no sul de Portugal"
       ]
-    }
+    },
+    "surroundings": "Bem-vindo à Ponta da Piedade, o icónico promontório de falésias de Lagos, na região do Algarve, em Portugal. Durante a visita, os viajantes podem facilmente combinar o passeio com outras atrações próximas, como a Praia do Camilo, a Praia de Dona Ana e o histórico Forte da Ponta da Bandeira, junto à Marina de Lagos.",
+    "breadcrumb": [
+      "Ponta da Piedade",
+      "Lagos",
+      "Faro (Algarve)",
+      "Portugal"
+    ]
   },
   "knowledge": {
     "title": "Descubra o Encanto da Ponta da Piedade",
@@ -287,7 +295,9 @@
   "mapSection": {
     "title": "Mapa e Localização",
     "subtitle": "Estr. da Ponta da Piedade, 8600-544 Lagos, Portugal",
-    "openMaps": "Ver no Google Maps"
+    "openMaps": "Ver no Google Maps",
+    "officialText": "Para informações oficiais e atualizadas sobre a Ponta da Piedade, em Lagos, no Algarve, Portugal, visite:",
+    "officialLink": "Ponta da Piedade - página oficial da Visit Portugal"
   },
   "footer": {
     "rights": "© 2026 Ponta da Piedade. Todos os direitos reservados.",
@@ -303,30 +313,31 @@
     "resources": [
       {
         "name": "Turismo de Portugal (Visit Portugal)",
-        "url": "https://www.visitportugal.com"
+        "url": "https://www.visitportugal.com/en"
+      },
+      {
+        "name": "Património Cultural, I.P. (Direção-Geral do Património Cultural)",
+        "url": "https://www.patrimoniocultural.gov.pt"
       },
       {
         "name": "Região de Turismo do Algarve",
         "url": "https://www.turismodoalgarve.pt"
       },
       {
-        "name": "Câmara Municipal de Lagos",
-        "url": "https://www.cm-lagos.pt"
-      },
-      {
-        "name": "Autoridade Marítima Nacional - Faróis de Portugal",
-        "url": "https://www.amn.pt"
-      },
-      {
-        "name": "Agência Portuguesa do Ambiente",
+        "name": "Agência Portuguesa do Ambiente (APA)",
         "url": "https://apambiente.pt"
+      },
+      {
+        "name": "AIMA (Agência para a Integração, Migrações e Asilo)",
+        "url": "https://aima.gov.pt"
       }
     ],
-    "disclaimer": "Este website é um projeto independente e sem fins lucrativos de informação turística. Não temos qualquer afiliação com o governo local ou outras instituições oficiais."
+    "disclaimer": "Este website é um projeto independente e sem fins lucrativos de informação turística. Não temos qualquer afiliação com o governo local ou outras instituições oficiais.",
+    "photoCredit": "Todas as imagens apresentadas neste site permanecem propriedade dos seus fotógrafos originais e estão protegidas por direitos de autor."
   },
   "privacy": {
     "title": "Privacy Policy",
-    "lastUpdated": "Last Updated: April 2026",
+    "lastUpdated": "Última atualização: setembro de 2026",
     "sections": [
       {
         "heading": "1. Information Collection",
@@ -348,7 +359,7 @@
   },
   "terms": {
     "title": "Terms of Service",
-    "lastUpdated": "Last Updated: April 2026",
+    "lastUpdated": "Última atualização: setembro de 2026",
     "sections": [
       {
         "heading": "1. Acceptance of Terms",
@@ -607,45 +618,8 @@
       }
     ]
   },
-  "recommendations": {
-    "title": "Explore More",
-    "attractionsTitle": "Nearby Attractions",
-    "toursTitle": "Recommended Tours & Activities",
-    "attractions": [
-      {
-        "name": "Praia de Dona Ana",
-        "url": "https://www.visitportugal.com"
-      },
-      {
-        "name": "Praia do Camilo",
-        "url": "https://www.visitportugal.com"
-      },
-      {
-        "name": "Lagos Old Town",
-        "url": "https://www.visitportugal.com"
-      },
-      {
-        "name": "Meia Praia",
-        "url": "https://www.visitportugal.com"
-      }
-    ],
-    "tours": [
-      {
-        "name": "Ponta da Piedade Cave Boat Tour",
-        "url": "https://www.visitportugal.com"
-      },
-      {
-        "name": "Algarve Coast Kayak Adventure",
-        "url": "https://www.visitportugal.com"
-      },
-      {
-        "name": "Lagos Catamaran Cruise & Dolphin Watching",
-        "url": "https://www.visitportugal.com"
-      },
-      {
-        "name": "Cliff Sunset Hiking Tour",
-        "url": "https://www.visitportugal.com"
-      }
-    ]
+  "sourcesSection": {
+    "title": "Fontes e Nota Editorial",
+    "note": "Este é um guia de visitante independente e não comercial, elaborado com base em fontes públicas oficiais (listadas acima). A classificação e o número de avaliações provêm do Google Maps e podem variar ao longo do tempo. Conteúdo revisto pela última vez em setembro de 2026."
   }
 }
