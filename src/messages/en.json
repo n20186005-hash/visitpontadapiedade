@@ -217,7 +217,14 @@
       "Small Pier at Cliff Bottom",
       "Lagos Coastline Scenery",
       "Fluorescent Blue Water in Caves",
-      "Lighthouse and Surroundings"
+      "Lighthouse and Surroundings",
+      "Boardwalk Viewpoint",
+      "Sea Cave Interior with Turquoise Light",
+      "View from the Lighthouse Trail",
+      "Kayaks below the Cliffs",
+      "Golden Rocks at Dusk",
+      "Atlantic Waves against the Cliffs",
+      "Cliff Arch Framing the Sea"
     ],
     "viewAll": "View more photos on Google Maps",
     "showAllPhotos": "Show All Photos"
@@ -293,6 +300,28 @@
       "tourism": "Algarve Tourism Guide",
       "england": "Lagos City Council"
     },
+    "resources": [
+      {
+        "name": "Visit Portugal (National Tourism Board)",
+        "url": "https://www.visitportugal.com"
+      },
+      {
+        "name": "Turismo do Algarve (Regional Tourism Board)",
+        "url": "https://www.turismodoalgarve.pt"
+      },
+      {
+        "name": "Lagos City Council",
+        "url": "https://www.cm-lagos.pt"
+      },
+      {
+        "name": "Portuguese Maritime Authority – Lighthouses",
+        "url": "https://www.amn.pt"
+      },
+      {
+        "name": "Portuguese Environment Agency",
+        "url": "https://apambiente.pt"
+      }
+    ],
     "disclaimer": "This website is an independent third-party travel information project. We have no affiliation with local government or other official institutions."
   },
   "privacy": {
@@ -388,6 +417,195 @@
   "officialManagement": {
     "title": "About Ponta da Piedade",
     "text": "Ponta da Piedade is one of the most famous natural landscapes in the Algarve region of Portugal, jointly maintained by the Lagos municipality and relevant nature conservation agencies.\n\nAs a masterpiece sculpted by nature over tens of millions of years, this golden cliff coast is not only the pride of Portugal but also a top destination for global tourists exploring the Atlantic coastal scenery. The scenic area is committed to providing visitors with a safe and stunning viewing experience while protecting the fragile geological environment."
+  },
+  "weather": {
+    "title": "Weather & Forecast",
+    "subtitle": "Current conditions and the outlook for the coming days at Ponta da Piedade (Lagos).",
+    "currentTitle": "Now",
+    "forecastTitle": "Forecast for the coming days",
+    "feels": "Feels like",
+    "wind": "Wind",
+    "humidity": "Humidity",
+    "precipitation": "Precipitation",
+    "updated": "Updated:",
+    "today": "Today",
+    "source": "Weather forecast provided by",
+    "unavailable": "Weather data is currently unavailable. Please try again later.",
+    "codes": {
+      "clear": "Clear sky",
+      "partly": "Partly cloudy",
+      "cloudy": "Cloudy",
+      "fog": "Fog",
+      "drizzle": "Drizzle",
+      "rain": "Rain",
+      "snow": "Snow",
+      "showers": "Rain showers",
+      "thunder": "Thunderstorm",
+      "unknown": "—"
+    }
+  },
+  "facilities": {
+    "title": "Nearby Facilities & Services",
+    "subtitle": "What you will find at Ponta da Piedade and around to help plan your visit.",
+    "note": "We are an independent, non-profit informational website. To stay neutral and objective, this section only lists the types of services available in the area and does not recommend or promote any specific business. Always check current opening hours and availability on site.",
+    "items": [
+      {
+        "name": "Public toilets (WC)",
+        "desc": "Public toilets are available near the lighthouse car park and close to Dona Ana and Camilo beaches. Some may be pay-per-use or have limited hours outside the high season."
+      },
+      {
+        "name": "Parking",
+        "desc": "Free car parks near the lighthouse and along the access road, although in July and August they fill up around midday and late afternoon. Paid parking at the beaches or in central Lagos is an alternative."
+      },
+      {
+        "name": "Restaurants & cafés",
+        "desc": "Restaurants, cafés, terraces, ice-cream parlours and beach bars can be found at the nearby beaches (Dona Ana and Camilo), around the marina and in Lagos' historic centre."
+      },
+      {
+        "name": "Accommodation",
+        "desc": "Hotels, resorts, holiday apartments, guesthouses and hostels are concentrated in Lagos, around the marina and near the beaches. In August, book well in advance."
+      },
+      {
+        "name": "Supermarkets & convenience stores",
+        "desc": "Convenience stores, grocers and supermarkets can be found in Lagos and the surrounding area for water, snacks and basic supplies before or after your visit."
+      },
+      {
+        "name": "Fuel & EV charging",
+        "desc": "Petrol stations and electric-vehicle charging points are available in Lagos and on the main access roads (A22 and EN125)."
+      },
+      {
+        "name": "Pharmacies",
+        "desc": "Pharmacies are available in Lagos (several in the centre) and in other nearby coastal towns. Outside regular hours, follow the local duty-rota system."
+      },
+      {
+        "name": "ATM (cash machines)",
+        "desc": "Cash machines are available in central Lagos and around the marina. Some boat operators may not accept cards on board."
+      },
+      {
+        "name": "Healthcare",
+        "desc": "The Lagos Health Centre provides primary care; the nearest referral hospital is in Portimão, about 20–30 minutes away by car."
+      },
+      {
+        "name": "Boat tours & craft rentals",
+        "desc": "Companies offering boat tours, kayaks and paddleboards operate from Lagos Marina and the Dona Ana/Ponta da Piedade area. Schedules depend on sea and wind conditions."
+      }
+    ]
+  },
+  "history": {
+    "title": "History & Geological Background",
+    "intro": "A glimpse of the long natural and human history behind these cliffs.",
+    "items": [
+      {
+        "era": "About 200 million years ago",
+        "title": "A coastline carved by time",
+        "text": "The golden cliffs are made of limestone laid down in shallow seas during the Jurassic period. Over millions of years, the opening of the Atlantic Ocean, changing sea levels and erosion by waves and wind sculpted the arches, caves and stacks we admire today."
+      },
+      {
+        "era": "Antiquity",
+        "title": "A landmark for ancient sailors",
+        "text": "The coast of today's Algarve was sailed and settled since antiquity by peoples such as the Conii, Phoenicians, Carthaginians and Romans. The prominence of this headland made it a natural navigation landmark along the southern coast of the Iberian Peninsula."
+      },
+      {
+        "era": "15th century",
+        "title": "Lagos and the Age of Discovery",
+        "text": "In the 15th century, Lagos was one of the central ports of Portugal's Age of Discovery. Prince Henry the Navigator lived here, and caravels set sail from here into the Atlantic. To the sailors, these cliffs were the last sight of land when departing and the first sign of home when returning."
+      },
+      {
+        "era": "1 November 1755",
+        "title": "The great earthquake and tsunami",
+        "text": "The 1755 Lisbon earthquake generated a tsunami that hit the Algarve coast hard. In Lagos, the sea invaded the lower town and much of the settlement was destroyed, as recorded in parish documents and in the reconstruction that followed."
+      },
+      {
+        "era": "1913",
+        "title": "The Ponta da Piedade lighthouse",
+        "text": "The idea of building a lighthouse on the headland dates to 1883, but the work was only carried out in 1912–1913. The lighthouse entered service on 1 July 1913, built on the site where an old hermitage dedicated to Our Lady of Piedade had once stood."
+      },
+      {
+        "era": "20th century",
+        "title": "From the sea to the world",
+        "text": "For decades the coast was a stage for fishing and trade and, in 1917 during the First World War, for attacks by German submarines on merchant ships off the Algarve. From the 1960s, Algarve tourism turned Ponta da Piedade into a world-famous image."
+      },
+      {
+        "era": "21st century",
+        "title": "Conservation and sustainable visits",
+        "text": "Today the site is managed with conservation in mind: raised boardwalks and viewpoints protect fragile soil and vegetation, while the caves are still explored only by sea, in authorised small boats."
+      }
+    ]
+  },
+  "stories": {
+    "title": "Stories & Legends",
+    "intro": "Local legends, historical episodes and curious facts about Ponta da Piedade.",
+    "kinds": {
+      "legend": "Legend",
+      "history": "History",
+      "fact": "Fact",
+      "curiosity": "Curiosity"
+    },
+    "items": [
+      {
+        "kind": "legend",
+        "title": "Why is it called 'Piedade'?",
+        "text": "The name may be linked to an old hermitage dedicated to Our Lady of Piedade that stood on top of the headland — its ruins are said to have given way to the lighthouse inaugurated in 1913. Local tradition also connects the word 'piedade' (mercy) to the compassion and protection sailors invoked before setting out to sea and gave thanks for upon sighting these rocks again."
+      },
+      {
+        "kind": "history",
+        "title": "The Atlantic gateway of the Age of Discovery",
+        "text": "Between the 15th and 16th centuries Lagos was one of the main ports of Portuguese expansion. Many caravels are said to have left the bay of Lagos towards Africa and the Atlantic; for men of the sea, Ponta da Piedade was the last 'solid ground' they saw when leaving and the landmark that announced their return home."
+      },
+      {
+        "kind": "fact",
+        "title": "The earthquake that reshaped the coast",
+        "text": "On 1 November 1755, the great Lisbon earthquake produced a tsunami that swept the Algarve coast. In Lagos, the sea invaded the lower town and destroyed much of the housing; the reconstruction that followed left marks on the urban layout that can still be observed today."
+      },
+      {
+        "kind": "curiosity",
+        "title": "The Great War reached the Algarve",
+        "text": "In 1917, during the First World War, German submarines operated off the Algarve coast and attacked merchant ships between Sagres and Cape St. Vincent. The conflict reached these waters, making lighthouses such as Ponta da Piedade even more important for navigation."
+      },
+      {
+        "kind": "fact",
+        "title": "A lighthouse keeper's life",
+        "text": "Since 1913 the Ponta da Piedade lighthouse was guarded by keepers who often lived in the tower with their families — a hard and isolated life. With automation in later decades the last resident keepers left, but the light is still active and continues to guide navigation off Lagos today."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Answers to the most common visitor questions.",
+    "items": [
+      {
+        "q": "Is there an entry fee at Ponta da Piedade?",
+        "a": "No. The cliffs, boardwalks and viewpoints are free and open 24 hours a day. Only boat tours, kayaks and other organised activities are paid."
+      },
+      {
+        "q": "Is there parking?",
+        "a": "Yes. There are free car parks near the lighthouse and along the access road, but in July and August they fill up quickly. Alternative: park in Lagos and walk or take a boat to Ponta da Piedade."
+      },
+      {
+        "q": "Where do the cave boat tours leave from?",
+        "a": "Boat tours mostly leave from Lagos Marina and from the Dona Ana/Ponta da Piedade area. Prices and schedules vary with the season and sea conditions; book ahead on busy days."
+      },
+      {
+        "q": "Can I swim or dive in the caves?",
+        "a": "It is not recommended. Currents along the cliffs are strong and unpredictable, and access is by sea. For swimming, use the supervised nearby beaches (Dona Ana, Camilo, Batata) within the marked areas and seasons."
+      },
+      {
+        "q": "Are there toilets, restaurants or shops nearby?",
+        "a": "Near the lighthouse services are limited (public toilets and small sales points). Restaurants, cafés, supermarkets and other services are found at the nearby beaches and in central Lagos, a few minutes away."
+      },
+      {
+        "q": "How much time should I allow for the visit?",
+        "a": "Half a day (about 2 to 4 hours) is enough to walk the boardwalks, descend the steps and take a boat tour. Allow more time if you want to enjoy the sunset."
+      },
+      {
+        "q": "Is Ponta da Piedade accessible for people with reduced mobility?",
+        "a": "The boardwalks and viewpoints are accessible to wheelchairs and pushchairs. The steps down to sea level and the boats are not accessible; contact boat operators for adapted options."
+      },
+      {
+        "q": "What is the best time to visit?",
+        "a": "Spring and autumn offer mild temperatures and fewer people. Early morning has excellent light and smaller crowds; late afternoon brings a spectacular sunset, but parking and traffic increase."
+      }
+    ]
   },
   "recommendations": {
     "title": "Explore More",

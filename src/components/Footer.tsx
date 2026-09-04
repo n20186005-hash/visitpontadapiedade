@@ -1,18 +1,12 @@
-import { useTranslations } from 'next-intl';
-import { useLocale } from 'next-intl';
-
-const officialLinks = [
-  { name: '葡萄牙国家旅游局', url: 'https://www.visitportugal.com/en' },
-  { name: '葡萄牙国家文化遗产保护总局', url: 'https://www.patrimoniocultural.gov.pt/' },
-  { name: '阿尔加维大区旅游局', url: 'https://www.turismodoalgarve.pt/pt/Default.aspx' },
-  { name: '葡萄牙环境署大区水务及海岸带管理处', url: 'https://apambiente.pt/' },
-  { name: '葡萄牙出入境与内政管理', url: 'https://aima.gov.pt/pt' },
-];
+import { useTranslations, useLocale, useMessages } from 'next-intl';
 
 export default function Footer() {
   const t = useTranslations('footer');
   const locale = useLocale();
-  const prefix = locale === 'en' ? '' : `/${locale}`;
+  const prefix = `/${locale}`;
+  const messages = useMessages() as any;
+  const resources: Array<{ name: string; url: string }> =
+    messages?.footer?.resources || [];
 
   return (
     <footer
@@ -29,13 +23,13 @@ export default function Footer() {
               {t('officialResourcesTitle')}
             </p>
             <div className="flex flex-col gap-2">
-              {officialLinks.map((link, i) => (
-                <a 
+              {resources.map((link, i) => (
+                <a
                   key={i}
-                  href={link.url} 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
-                  className="hover:underline text-sm" 
+                  href={link.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:underline text-sm"
                   style={{ color: 'var(--accent)' }}
                 >
                   {link.name}

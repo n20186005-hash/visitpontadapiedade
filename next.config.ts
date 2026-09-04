@@ -9,9 +9,8 @@ const nextConfig: NextConfig = {
       { protocol: 'https' as const, hostname: 'images.unsplash.com' },
     ],
   },
-  // 确保静态导出时正确处理图片路径
-  output: 'export',
-  distDir: 'out',
+  // 天气模块使用 Server Component + ISR（fetch revalidate），需要服务端运行时，
+  // 因此不使用静态导出（output: 'export'）。部署可用 next start / Vercel。
 };
 
 export default withNextIntl(nextConfig);

@@ -41,27 +41,27 @@
     }
   },
   "knowledge": {
-    "title": "Discover the Charm of Ponta da Piedade",
+    "title": "Descubra o Encanto da Ponta da Piedade",
     "sections": [
       {
         "id": "history",
-        "title": "Geology and History",
-        "content": "The limestone formations of Ponta da Piedade were formed tens of millions of years ago. Under the long-term erosion of crustal movements, seawater, and sea winds, the once flat coastline has been carved into today's intricate and varied cliffs and caves. During Portugal's Age of Discovery, Lagos was an important port, and these cliffs were the last piece of land navigators saw before heading out to sea, as well as an important landmark upon their return. The lighthouse at the top was built in 1913 and still guides passing ships today."
+        "title": "Geologia e História",
+        "content": "As formações calcárias da Ponta da Piedade formaram-se há dezenas de milhões de anos. Sob a ação prolongada dos movimentos da crosta terrestre, da água do mar e dos ventos oceânicos, a costa outrora plana foi esculpida nas falésias e grutas intricadas que hoje conhecemos. Durante a Época dos Descobrimentos, Lagos foi um porto importante — estas falésias eram a última visão de terra para os navegadores que partiam para o mar, bem como um marco de referência fundamental no regresso. O farol no topo foi construído em 1913 e ainda hoje guia os navios que passam."
       },
       {
         "id": "architecture",
-        "title": "Natural Wonders",
-        "content": "The landscape here is entirely shaped by nature. The golden rocks shine brilliantly in the sunlight, creating a strong visual contrast with the turquoise and emerald waters. Locals have given interesting names to many uniquely shaped rocks, such as 'The Elephant', 'The Camel', and 'The Kissing Couple'. Besides the rocks, this is also a habitat for many seabirds, and the vegetation atop the cliffs blooms with wildflowers in spring, full of vitality."
+        "title": "Maravilhas Naturais",
+        "content": "A paisagem aqui é inteiramente moldada pela natureza. As rochas douradas brilham intensamente ao sol, criando um forte contraste com as águas turquesa e esmeralda. Os locais deram nomes curiosos a muitas formações rochosas de formas invulgares, como «O Elefante», «O Camelo» ou «O Casal a Beijar-se». Para além das rochas, a zona é também habitat de muitas aves marinhas e, na primavera, a vegetação no topo das falésias floresce com plantas silvestres, cheia de vida."
       },
       {
         "id": "culture",
-        "title": "Ways to Explore",
-        "content": "There are two main ways to explore Ponta da Piedade: by land and by water. By land, you can hike along the recently built wooden boardwalks, which are flat, safe, and feature multiple observation decks. By water, you can take a small motorboat or kayak, where the captain will take you into the narrow caves. Looking up at the sky through the crevices, the seawater reflects an incredible fluorescent blue in the sunlight, a spectacle that cannot be seen from land."
+        "title": "Formas de Explorar",
+        "content": "Há duas formas principais de explorar a Ponta da Piedade: por terra e por mar. Por terra, pode caminhar pelos passadiços de madeira recentemente construídos, que são planos, seguros e têm vários miradouros. Por mar, pode apanhar um pequeno barco a motor ou um caiaque; o capitão leva-o pelas grutas estreitas. Ao olhar para o céu pelas frestas, a água do mar reflete um azul fluorescente incrível sob a luz do sol — um espetáculo que não se consegue ver a partir de terra."
       },
       {
         "id": "experience",
-        "title": "Core Experience",
-        "content": "Stand on the observation decks at the edge of the cliffs, feel the Atlantic breeze, and listen to the roaring waves. Descend nearly 200 steps to the small pier at the bottom of the cliffs to get up close to the clear seawater. Ride a traditional small wooden boat through the maze-like rocks, listening to the boatman tell stories of each rock. In the evening, find an open rock to sit on, quietly watch the sunset dye the entire coastline golden-red, and feel the tranquility and magnificence of nature."
+        "title": "A Experiência Essencial",
+        "content": "Fique nos miradouros na borda das falésias, sinta a brisa do Atlântico e ouça o rugir das ondas. Desça os quase 200 degraus até ao pequeno cais no sopé das falésias para se aproximar da água cristalina. Ande num pequeno barco tradicional de madeira pelo labirinto de rochas, ouvindo o barqueiro contar histórias de cada formação. Ao fim do dia, encontre um rochedo ao ar livre, sente-se e veja o pôr do sol pintar toda a costa de dourado e vermelho — sinta a tranquilidade e a grandiosidade da natureza."
       }
     ]
   },
@@ -84,216 +84,245 @@
     "plusCodeValue": "38HJ+XH Lagos, Portugal"
   },
   "hours": {
-    "title": "Opening Hours",
-    "outdoor": "Natural Area (Cliff Walks and Observation Decks)",
-    "outdoorTime": "Open 24 hours daily, free of charge",
-    "lighthouse": "Lighthouse Area",
-    "summer": "Boat Tour Operating Hours",
-    "summerTime": "Typically 09:00 - 18:00 (subject to weather and sea conditions)",
-    "winter": "Best Time to Visit",
-    "winterTime": "Spring to Autumn (April - October)",
-    "warning": "Visiting Tips",
-    "warningTime": "Nighttime illumination in the cliff area is weak; visiting non-boardwalk areas after dark is not recommended.",
-    "tip": "Boat and kayak tours may be suspended during high winds and rough seas."
+    "title": "Horário de Abertura",
+    "outdoor": "Área Natural (Trilhos nas Falésias e Miradouros)",
+    "outdoorTime": "Aberto 24 horas por dia, entrada gratuita",
+    "lighthouse": "Zona do Farol",
+    "summer": "Horário dos Passeios de Barco",
+    "summerTime": "Geralmente 09:00 - 18:00 (sujeito às condições meteorológicas e do mar)",
+    "winter": "Melhor Altura para Visitar",
+    "winterTime": "Primavera a Outono (abril - outubro)",
+    "warning": "Dicas de Visita",
+    "warningTime": "A iluminação noturna na zona das falésias é fraca; não é recomendado circular fora dos passadiços depois do anoitecer.",
+    "tip": "Os passeios de barco e caiaque podem ser suspensos com vento forte e mar agitado."
   },
   "tickets": {
-    "title": "Ticket Information",
-    "outdoor": "Land Viewing (Boardwalks and Observation Decks)",
-    "outdoorPrice": "Free Admission",
-    "lighthouse": "Descending Steps to Cliff Bottom Pier",
-    "adults": "Adult Boat/Kayak Experience",
-    "adultsPrice": "Approx. €20 - €35/person (Duration 1-2 hours)",
-    "students": "Children's Boat Tour",
-    "studentsPrice": "Usually discounted, approx. €10 - €15/person",
-    "children": "Parking Fee",
-    "childrenPrice": "Free parking available near the lighthouse",
-    "card": "Booking Advice",
-    "cardPrice": "In peak season, it is recommended to book boat tours online in advance or compare prices at Marina de Lagos."
+    "title": "Informação de Bilhetes",
+    "outdoor": "Visita por Terra (Passadiços e Miradouros)",
+    "outdoorPrice": "Entrada gratuita",
+    "lighthouse": "Descer os degraus até ao cais no sopé das falésias",
+    "adults": "Passeio de barco/caiaque para adultos",
+    "adultsPrice": "Aprox. €20 - €35/pessoa (duração 1-2 horas)",
+    "students": "Passeio de barco para crianças",
+    "studentsPrice": "Geralmente com desconto, aprox. €10 - €15/pessoa",
+    "children": "Parque de estacionamento",
+    "childrenPrice": "Estacionamento gratuito disponível junto ao farol",
+    "card": "Conselhos de Reserva",
+    "cardPrice": "Em época alta, recomenda-se reservar os passeios de barco online com antecedência ou comparar preços na Marina de Lagos."
   },
   "transport": {
-    "title": "Transportation",
-    "airport": "From Faro Airport",
-    "airportDesc": "Faro is the nearest international airport. You can rent a car and drive along the A22 highway to Lagos in about 1 hour; alternatively, take a train or bus to Lagos city center.",
-    "selfDrive": "Driving",
-    "selfDriveDesc": "About a 10-minute drive from Lagos city center. Navigate to Ponta da Piedade; there is a large free parking lot at the end near the lighthouse, but it may get crowded in the afternoons during peak season.",
-    "bus": "Public Transport and Tourist Trains",
-    "busDesc": "The Tourist Train or local bus (Linha 2) from Lagos city center goes directly to Ponta da Piedade. You can also use ride-hailing apps like Uber or Bolt, which are cheap and convenient.",
-    "intercity": "Walking",
-    "intercityDesc": "Hike from Lagos city center or Praia de Dona Ana along the coastal trail. It takes about 30-40 minutes one way with excellent sea views along the way.",
-    "cycling": "By Water",
-    "cyclingDesc": "Join a tour directly at Lagos Marina and take a speedboat or catamaran to reach Ponta da Piedade by sea, which is the most effortless way to visit.",
-    "tips": "Travel Tips",
-    "tipsDesc": "The summer sun is intense. If you choose to hike, be sure to bring enough drinking water and apply sun protection."
+    "title": "Como Chegar",
+    "airport": "A partir do Aeroporto de Faro",
+    "airportDesc": "Faro é o aeroporto internacional mais próximo. Pode alugar um carro e seguir pela autoestrada A22 até Lagos em cerca de 1 hora; em alternativa, apanhe um comboio ou autocarro até ao centro de Lagos.",
+    "selfDrive": "De Carro",
+    "selfDriveDesc": "A cerca de 10 minutos de carro do centro de Lagos. Navegue para «Ponta da Piedade»; existe um grande parque de estacionamento gratuito no fim da estrada, junto ao farol, mas em época alta pode ficar cheio ao final da tarde.",
+    "bus": "Transportes Públicos e Comboio Turístico",
+    "busDesc": "O comboio turístico ou o autocarro local (Linha 2) partem do centro de Lagos diretamente para a Ponta da Piedade. Também pode usar aplicações de transporte como Uber ou Bolt, que são baratas e convenientes.",
+    "intercity": "A Pé",
+    "intercityDesc": "Caminhe do centro de Lagos ou da Praia de Dona Ana pelo trilho costeiro. Demora cerca de 30-40 minutos por sentido, com excelentes vistas sobre o mar ao longo do caminho.",
+    "cycling": "Por Mar",
+    "cyclingDesc": "Junte-se a um passeio diretamente na Marina de Lagos e apanhe uma lancha ou catamarã para chegar à Ponta da Piedade por mar — a forma mais descomplicada de visitar.",
+    "tips": "Conselhos de Viagem",
+    "tipsDesc": "O sol de verão é intenso. Se escolher caminhar, leve água suficiente e aplique proteção solar."
   },
   "route": {
-    "title": "Visiting Route",
-    "overview": "It is recommended to allocate half a day. Starting from the lighthouse parking lot, first take the wooden boardwalk on the left to enjoy the eastern coastline; then return to the central area and descend the stairs to the cliff bottom for water activities; finally, head to the right side to find the best sunset viewing spot.",
+    "title": "Roteiro de Visita",
+    "overview": "Recomenda-se reservar meio dia. Começando pelo parque de estacionamento do farol, siga primeiro pelo passadiço de madeira à esquerda para apreciar a costa oriental; depois volte à zona central e desça as escadas até ao sopé das falésias para atividades na água; por fim, vá para o lado direito para encontrar o melhor local para ver o pôr do sol.",
     "steps": [
-      "Arrive at the lighthouse parking lot and enter the newly built wooden boardwalk to the left.",
-      "Stroll along the boardwalk, overlooking the unique rock pillars and clear seawater from various observation decks.",
-      "Return to the lighthouse area and find the steep stone steps (nearly 200 steps) leading to sea level.",
-      "Descend to the small pier at the bottom, feel the waves up close, or take a local small wooden boat to explore the caves.",
-      "After the boat tour, climb back up the stairs and explore the dirt paths to the right.",
-      "Look for iconic landscapes like the 'Stone Arch' and take postcard-quality landscape photos.",
-      "In the evening, wait on the high cliffs for the stunning Atlantic sunset.",
-      "After the visit, walk or ride back to Lagos city center to enjoy a seafood feast."
+      "Chegue ao parque de estacionamento do farol e entre no passadiço de madeira recentemente construído, à esquerda.",
+      "Percorra o passadiço e admire os pilares rochosos únicos e a água cristalina a partir dos vários miradouros.",
+      "Volte à zona do farol e encontre as escadas de pedra íngremes (quase 200 degraus) que descem até ao nível do mar.",
+      "Desça até ao pequeno cais no sopé, sinta as ondas de perto ou apanhe um pequeno barco local para explorar as grutas.",
+      "Depois do passeio de barco, volte a subir as escadas e explore os caminhos de terra do lado direito.",
+      "Procure paisagens emblemáticas como o «Arco de Pedra» e tire fotografias dignas de um postal.",
+      "Ao fim da tarde, espere nas falésias altas pelo impressionante pôr do sol sobre o Atlântico.",
+      "No final, caminhe ou regresse ao centro de Lagos para um jantar de marisco."
     ],
     "supplements": [
-      "The stairs down to sea level are steep and often wet. Please hold the handrails tightly and watch your step.",
-      "If traveling with a stroller or wheelchair, you can visit the wooden boardwalk area, but cannot descend to sea level.",
-      "The soil at the edge of the cliffs without guardrails is loose. Do not get too close to the edge when taking photos; prioritize safety.",
-      "It can be very windy by the sea, especially after sunset when the temperature drops noticeably. It is recommended to bring a windproof jacket.",
-      "Por favor, proteja o ambiente natural local e não deite lixo"
+      "As escadas até ao nível do mar são íngremes e frequentemente molhadas. Segure bem nos corrimãos e tenha cuidado ao andar.",
+      "Se viajar com carrinho de bebé ou em cadeira de rodas, pode visitar a zona dos passadiços de madeira, mas não consegue descer até ao nível do mar.",
+      "O solo na borda das falésias sem guarda-corpos é solto. Não se aproxime demasiado da borda ao tirar fotografias; a segurança vem primeiro.",
+      "Pode ventar muito junto ao mar, especialmente depois do pôr do sol, quando a temperatura desce visivelmente. Recomenda-se levar um casaco corta-vento.",
+      "Proteja o ambiente natural local e não deixe lixo."
     ],
-    "supplementsTitle": "Avisos de Visita"
+    "supplementsTitle": "Notas de Visita"
   },
   "photoSpots": {
-    "title": "Photo Spots",
+    "title": "Locais de Fotografia",
     "spots": [
       {
-        "name": "Boardwalk Observation Deck",
-        "desc": "Overlook the entire eastern panorama of Ponta da Piedade, perfectly framing the sea pillars with the turquoise water."
+        "name": "Miradouro do Passadiço",
+        "desc": "Vista panorâmica sobre toda a zona oriental da Ponta da Piedade, enquadrando perfeitamente os pilares rochosos com a água turquesa."
       },
       {
-        "name": "Midway on the Cliff Stairs",
-        "desc": "Use the towering yellow rock walls on both sides as a frame to capture the small boats in the clear water below."
+        "name": "A Meio das Escadas das Falésias",
+        "desc": "Use as altas paredes de rocha amarela dos dois lados como moldura para captar os pequenos barcos na água cristalina abaixo."
       },
       {
-        "name": "Inside the Sea Caves (Boat Required)",
-        "desc": "Shoot outward from inside the cave to capture the narrow sky and the magical fluorescent blue reflected by the seawater."
+        "name": "No Interior das Grutas (é necessário barco)",
+        "desc": "Fotografe de dentro da gruta para fora, captando o céu estreito e o mágico azul fluorescente refletido pela água do mar."
       },
       {
-        "name": "Natural Stone Arch",
-        "desc": "The famous cross-sea stone arch can be photographed from the top of the western cliff; it is an iconic spot."
+        "name": "Arco de Pedra Natural",
+        "desc": "O famoso arco de pedra sobre o mar pode ser fotografado do topo da falésia ocidental; é um local icónico."
       },
       {
-        "name": "Sunset Cliff",
-        "desc": "The open high ground to the right of the lighthouse is perfect for backlighting cliff silhouettes and the sunset-dyed sea."
+        "name": "Falésia do Pôr do Sol",
+        "desc": "O terreno alto e aberto à direita do farol é perfeito para silhuetas das falésias em contraluz e para o mar tingido pelo pôr do sol."
       }
     ],
-    "tips": "Photography Tips",
-    "tipsContent": "In the morning, the light is frontal, making the seawater appear its bluest and clearest, ideal for seascapes. In the evening, the light is soft and golden, perfect for portraits and sunsets. If using a drone, please note local flight restriction policies and the impact of sea breezes. The light inside the caves is dim and the boats rock, so a wide-aperture lens or a smartphone's night/anti-shake mode is recommended."
+    "tips": "Dicas de Fotografia",
+    "tipsContent": "De manhã, a luz é frontal e a água parece mais azul e límpida — ideal para paisagens marinhas. Ao fim do dia, a luz é suave e dourada, perfeita para retratos e pores do sol. Se usar um drone, verifique as políticas locais de restrição de voo e o efeito das brisas marinhas. No interior das grutas a luz é fraca e os barcos baloiçam, pelo que se recomenda uma objetiva de grande abertura ou o modo noturno/anti-abalo do telemóvel."
   },
   "hotels": {
-    "title": "Accommodation Suggestions",
+    "title": "Sugestões de Alojamento",
     "hotels": [
       {
-        "name": "Cliffside Ocean View Hotels",
-        "desc": "Located near Praia de Dona Ana or Praia do Camilo, within walking distance to Ponta da Piedade. Rooms directly face the Atlantic with unbeatable views.",
-        "price": "Higher prices, requiring booking months in advance"
+        "name": "Hotéis com vista para o mar junto às falésias",
+        "desc": "Localizados perto da Praia de Dona Ana ou da Praia do Camilo, a poucos minutos a pé da Ponta da Piedade. Os quartos virados diretamente para o Atlântico têm vistas incomparáveis.",
+        "price": "Preços mais elevados, requer reserva com meses de antecedência"
       },
       {
-        "name": "Lagos Old Town",
-        "desc": "Cobblestone streets full of historical charm, abundant dining and nightlife, very convenient for taking boats from the marina.",
-        "price": "High value for money, diverse choices"
+        "name": "Centro Histórico de Lagos",
+        "desc": "Ruas de calçada cheias de encanto histórico, com muita restauração e vida noturna, muito conveniente para apanhar os barcos na marina.",
+        "price": "Boa relação qualidade/preço, escolha variada"
       },
       {
-        "name": "Marina Area Resorts",
-        "desc": "Close to Lagos Marina with modern facilities, suitable for families, convenient for joining various day trips at sea.",
-        "price": "Mid-to-high range, fully equipped"
+        "name": "Resorts na zona da Marina",
+        "desc": "Perto da Marina de Lagos, com instalações modernas, adequados para famílias e convenientes para os passeios marítimos diários.",
+        "price": "Gama média-alta, muito completos"
       },
       {
-        "name": "Boutique B&Bs and Hostels",
-        "desc": "Numerous well-designed B&Bs and hostels with great atmospheres in the city center, suitable for backpackers and young travelers.",
-        "price": "Budget-friendly, great vibe"
+        "name": "Boutique B&Bs e Hostels",
+        "desc": "Numerosos alojamentos locais e hostels bem decorados, com ótimo ambiente no centro da cidade, ideais para mochileiros e jovens viajantes.",
+        "price": "Económico, ótima vibe"
       }
     ],
-    "supplements": "Accommodation Notes",
-    "supplementsContent": "Lagos is one of the most popular resorts in the Algarve. July and August are the absolute peak season; hotels are hard to find and prices double, so be sure to book early. If you seek a quiet vacation, you can choose resorts slightly further from the city center but closer to the coastline."
+    "supplements": "Notas de Alojamento",
+    "supplementsContent": "Lagos é um dos destinos mais procurados do Algarve. Julho e agosto são a época alta absoluta: os hotéis esgotam e os preços duplicam, por isso reserve cedo. Se procura férias tranquilas, pode optar por alojamentos ligeiramente afastados do centro, mas mais próximos da linha de costa."
   },
   "gallery": {
-    "title": "Stunning Photos",
-    "subtitle": "Natural Wonders of Ponta da Piedade",
+    "title": "Fotografias Impressionantes",
+    "subtitle": "Maravilhas Naturais da Ponta da Piedade",
     "captions": [
-      "Ponta da Piedade Panorama",
-      "Golden Limestone Cliffs",
-      "Crystal Clear Turquoise Water",
-      "Exploring Sea Caves by Boat",
-      "Wooden Boardwalk Atop Cliffs",
-      "Magnificent Atlantic Sunset",
-      "Steep Stone Steps to the Sea",
-      "Uniquely Shaped Sea Pillars",
-      "Natural Stone Arch",
-      "Small Pier at Cliff Bottom",
-      "Lagos Coastline Scenery",
-      "Fluorescent Blue Water in Caves",
-      "Lighthouse and Surroundings"
+      "Panorama da Ponta da Piedade",
+      "Falésias douradas de calcário",
+      "Água turquesa cristalina",
+      "Explorar as grutas de barco",
+      "Passadiço de madeira no topo das falésias",
+      "Magnífico pôr do sol no Atlântico",
+      "Degraus de pedra íngremes até ao mar",
+      "Pilares marinhos de formas únicas",
+      "Arco de pedra natural",
+      "Pequeno cais no sopé das falésias",
+      "Paisagem da costa de Lagos",
+      "Água azul fluorescente no interior das grutas",
+      "Farol e arredores",
+      "Miradouro do passadiço",
+      "Interior da gruta com luz turquesa",
+      "Vista do trilho do farol",
+      "Caiaques junto aos rochedos",
+      "Rochas douradas ao entardecer",
+      "Ondas do Atlântico contra as falésias",
+      "Arco de pedra a emoldurar o mar"
     ],
-    "viewAll": "View more photos on Google Maps",
+    "viewAll": "Ver mais fotos no Google Maps",
     "showAllPhotos": "Mostrar Todas as Fotos"
   },
   "reviews": {
-    "title": "Visitor Reviews",
-    "declaration": "Review information can be viewed via Google Maps (external link).",
-    "moreReviews": "View More Reviews on Google Maps",
+    "title": "Avaliações de Visitantes",
+    "declaration": "As informações de avaliações podem ser consultadas no Google Maps (link externo).",
+    "moreReviews": "Ver Mais Avaliações no Google Maps",
     "items": [
       {
         "name": "John D",
-        "date": "1 month ago",
+        "date": "há 1 mês",
         "rating": 5,
-        "text": "Absolutely stunning place! The rock formations and the color of the water seem out of this world. We highly recommend taking a small boat tour through the caves; the captains are very skilled and the experience is fantastic."
+        "text": "Local absolutamente deslumbrante! As formações rochosas e a cor da água parecem de outro mundo. Recomendamos vivamente um passeio de barco pelas grutas; os capitães são muito experientes e a experiência é fantástica."
       },
       {
         "name": "Maria Silva",
-        "date": "2 months ago",
+        "date": "há 2 meses",
         "rating": 5,
-        "text": "Without a doubt the most beautiful place in southern Portugal. The newly built wooden boardwalk is very comfortable to walk on and perfect for a stroll. The sunset views are breathtakingly beautiful."
+        "text": "Sem dúvida o lugar mais bonito do sul de Portugal. O passadiço de madeira recém-construído é muito confortável e perfeito para um passeio. As vistas do pôr do sol são de cortar a respiração."
       },
       {
         "name": "Wei Chen",
-        "date": "3 months ago",
+        "date": "há 3 meses",
         "rating": 5,
-        "text": "Nature's masterpiece! Walking down those nearly 200 steps is absolutely worth it. The water is so clear you can see the fish at the bottom, and the golden rocks look amazing in the sunlight. Remember to bring a windproof jacket!"
+        "text": "Uma obra-prima da natureza! Descer os quase 200 degraus vale totalmente a pena. A água é tão límpida que se veem os peixes no fundo, e as rochas douradas brilham ao sol. Não se esqueça do casaco corta-vento!"
       },
       {
         "name": "Sarah K.",
-        "date": "4 months ago",
+        "date": "há 4 meses",
         "rating": 5,
-        "text": "We spent a perfect afternoon here. The cliff views are magnificent, and we also rented a kayak to go through the stone arches, which was an unforgettable experience. The parking lot is free and very convenient."
+        "text": "Passámos uma tarde perfeita aqui. As vistas das falésias são magníficas e alugámos um caiaque para atravessar os arcos de pedra — uma experiência inesquecível. O parque de estacionamento é gratuito e muito conveniente."
       },
       {
         "name": "Thomas Müller",
-        "date": "5 months ago",
+        "date": "há 5 meses",
         "rating": 5,
-        "text": "Breathtaking coastline! Although there are quite a few tourists, the area is large, and you can always find a quiet corner to enjoy the view. You must walk to the very edge to watch the waves crash against the rocks."
+        "text": "Costa de tirar o fôlego! Apesar de haver bastantes turistas, a zona é grande e encontramos sempre um canto sossegado para apreciar a vista. Vale a pena chegar mesmo à borda para ver as ondas a rebentar contra as rochas."
       },
       {
         "name": "Elena R.",
-        "date": "Over 6 months ago",
+        "date": "há mais de 6 meses",
         "rating": 5,
-        "text": "This is my favorite attraction in the Algarve. You can enjoy world-class natural scenery without paying an entrance fee. If you come to Lagos, this is the number one must-visit spot."
+        "text": "É a minha atração preferida no Algarve. Pode desfrutar de cenário natural de classe mundial sem pagar bilhete de entrada. Se vier a Lagos, este é o local número um a visitar."
       },
       {
         "name": "David W.",
-        "date": "Over 6 months ago",
+        "date": "há mais de 6 meses",
         "rating": 5,
-        "text": "It takes about half an hour to walk from the city center, and the scenery along the way is great. Arriving at Ponta da Piedade is even more shocking. The blue of the seawater has many layers, it's so beautiful."
+        "text": "Demora cerca de meia hora a pé desde o centro da cidade e a paisagem pelo caminho é ótima. Chegar à Ponta da Piedade é ainda mais impressionante. O azul da água do mar tem muitas camadas, é lindíssimo."
       },
       {
         "name": "Laura G.",
-        "date": "1 year ago",
+        "date": "há 1 ano",
         "rating": 5,
-        "text": "Perfect! Stunning natural scenery. It is recommended to go early when the light is good and there are fewer people. Taking a small boat into the caves is the highlight; the blue glow underwater is magical."
+        "text": "Perfeito! Paisagem natural deslumbrante. Recomenda-se ir cedo, quando a luz é boa e há menos gente. Entrar de barco nas grutas é o ponto alto; o brilho azul debaixo de água é mágico."
       }
     ]
   },
   "mapSection": {
-    "title": "Transportation Guide",
+    "title": "Mapa e Localização",
     "subtitle": "Estr. da Ponta da Piedade, 8600-544 Lagos, Portugal",
-    "openMaps": "View on Google Maps"
+    "openMaps": "Ver no Google Maps"
   },
   "footer": {
-    "rights": "© 2026 Ponta da Piedade. All rights reserved.",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "cookies": "Cookie Settings",
-    "officialResourcesTitle": "Related Resources & Information",
+    "rights": "© 2026 Ponta da Piedade. Todos os direitos reservados.",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "cookies": "Definições de Cookies",
+    "officialResourcesTitle": "Recursos e Informação Oficial",
     "officialLinks": {
       "council": "Visit Portugal",
-      "tourism": "Algarve Tourism Guide",
-      "england": "Lagos City Council"
+      "tourism": "Guia Turístico do Algarve",
+      "england": "Câmara Municipal de Lagos"
     },
-    "disclaimer": "This website is an independent third-party travel information project. We have no affiliation with local government or other official institutions."
+    "resources": [
+      {
+        "name": "Turismo de Portugal (Visit Portugal)",
+        "url": "https://www.visitportugal.com"
+      },
+      {
+        "name": "Região de Turismo do Algarve",
+        "url": "https://www.turismodoalgarve.pt"
+      },
+      {
+        "name": "Câmara Municipal de Lagos",
+        "url": "https://www.cm-lagos.pt"
+      },
+      {
+        "name": "Autoridade Marítima Nacional - Faróis de Portugal",
+        "url": "https://www.amn.pt"
+      },
+      {
+        "name": "Agência Portuguesa do Ambiente",
+        "url": "https://apambiente.pt"
+      }
+    ],
+    "disclaimer": "Este website é um projeto independente e sem fins lucrativos de informação turística. Não temos qualquer afiliação com o governo local ou outras instituições oficiais."
   },
   "privacy": {
     "title": "Privacy Policy",
@@ -386,8 +415,197 @@
     "rejectAll": "Reject All"
   },
   "officialManagement": {
-    "title": "About Ponta da Piedade",
-    "text": "Ponta da Piedade is one of the most famous natural landscapes in the Algarve region of Portugal, jointly maintained by the Lagos municipality and relevant nature conservation agencies.\n\nAs a masterpiece sculpted by nature over tens of millions of years, this golden cliff coast is not only the pride of Portugal but also a top destination for global tourists exploring the Atlantic coastal scenery. The scenic area is committed to providing visitors with a safe and stunning viewing experience while protecting the fragile geological environment."
+    "title": "Sobre a Ponta da Piedade",
+    "text": "A Ponta da Piedade é uma das paisagens naturais mais famosas da região do Algarve, em Portugal, gerida em articulação com o município de Lagos e as entidades de conservação da natureza.\n\nComo uma obra-prima esculpida pela natureza ao longo de dezenas de milhões de anos, esta costa de falésias douradas é não só um orgulho de Portugal, mas também um dos destinos preferidos dos viajantes que exploram a paisagem atlântica. A zona procura proporcionar uma experiência segura e deslumbrante, protegendo ao mesmo tempo o frágil património geológico."
+  },
+  "weather": {
+    "title": "Tempo e Previsão",
+    "subtitle": "Condições atuais e previsão para os próximos dias na Ponta da Piedade (Lagos).",
+    "currentTitle": "Agora",
+    "forecastTitle": "Previsão para os próximos dias",
+    "feels": "Sensação térmica",
+    "wind": "Vento",
+    "humidity": "Humidade",
+    "precipitation": "Precipitação",
+    "updated": "Atualizado:",
+    "today": "Hoje",
+    "source": "Previsão meteorológica fornecida por",
+    "unavailable": "Neste momento não foi possível obter os dados meteorológicos. Tente novamente mais tarde.",
+    "codes": {
+      "clear": "Céu limpo",
+      "partly": "Parcialmente nublado",
+      "cloudy": "Nublado",
+      "fog": "Nevoeiro",
+      "drizzle": "Chuvisco",
+      "rain": "Chuva",
+      "snow": "Neve",
+      "showers": "Aguaceiros",
+      "thunder": "Trovoada",
+      "unknown": "—"
+    }
+  },
+  "facilities": {
+    "title": "Instalações e Serviços Próximos",
+    "subtitle": "O que existe na Ponta da Piedade e arredores para planear melhor a sua visita.",
+    "note": "Somos um website informativo independente e sem fins lucrativos. Para nos mantermos neutros e objetivos, esta secção indica apenas tipos de serviços disponíveis na zona, sem recomendar nem promover qualquer estabelecimento comercial específico. Confirme sempre horários e disponibilidade no local.",
+    "items": [
+      {
+        "name": "Casas de banho públicas (WC)",
+        "desc": "Existem casas de banho públicas na zona junto ao estacionamento do farol e perto das praias da Dona Ana e do Camilo. Algumas podem ser pagas ou com horário limitado fora da época alta."
+      },
+      {
+        "name": "Estacionamento",
+        "desc": "Parques gratuitos junto ao farol e ao longo da estrada de acesso, embora em julho e agosto fiquem cheios ao meio-dia e ao fim da tarde. Alternativa: estacionamento pago nas praias ou no centro de Lagos."
+      },
+      {
+        "name": "Restauração e cafés",
+        "desc": "Restaurantes, cafés, esplanadas, gelatarias e bares de praia encontram-se nas praias vizinhas (Dona Ana e Camilo), junto à marina e no centro histórico de Lagos."
+      },
+      {
+        "name": "Alojamento",
+        "desc": "Hotéis, resorts, apartamentos turísticos, alojamentos locais e hostels concentram-se em Lagos, na zona da marina e junto às praias. Em agosto, reserve com bastante antecedência."
+      },
+      {
+        "name": "Supermercados e mercearias",
+        "desc": "Lojas de conveniência, mercearias e supermercados existem em Lagos e arredores para comprar água, snacks e produtos básicos antes ou depois da visita."
+      },
+      {
+        "name": "Combustível e carregamento elétrico",
+        "desc": "Postos de combustível e pontos de carregamento para veículos elétricos encontram-se em Lagos e nas principais vias de acesso (A22 e EN125)."
+      },
+      {
+        "name": "Farmácias",
+        "desc": "Há farmácias em Lagos (várias no centro) e noutras localidades costeiras próximas. Fora do horário normal, siga o regime de turnos local."
+      },
+      {
+        "name": "Multibanco (ATM)",
+        "desc": "Caixas multibanco estão disponíveis no centro de Lagos e junto à marina. Alguns operadores marítimos podem não aceitar cartão a bordo."
+      },
+      {
+        "name": "Cuidados de saúde",
+        "desc": "O Centro de Saúde de Lagos presta cuidados primários; o hospital de referência mais próximo situa-se em Portimão, a cerca de 20-30 minutos de carro."
+      },
+      {
+        "name": "Passeios marítimos e aluguer de embarcações",
+        "desc": "Empresas de passeios de barco, caiaques e pranchas de paddle operam na Marina de Lagos e na zona da Dona Ana/Ponta da Piedade. Os horários dependem das condições do mar e do vento."
+      }
+    ]
+  },
+  "history": {
+    "title": "História e Contexto Geológico",
+    "intro": "Um pouco da longa história natural e humana por trás destas falésias.",
+    "items": [
+      {
+        "era": "Há cerca de 200 milhões de anos",
+        "title": "Uma costa esculpida pelo tempo",
+        "text": "As falésias douradas são constituídas por calcário formado em mares pouco profundos durante o Jurássico. Ao longo de milhões de anos, a abertura do oceano Atlântico, as variações do nível do mar e a erosão das ondas e do vento esculpiram os arcos, as grutas e os pilares que hoje admiramos."
+      },
+      {
+        "era": "Antiguidade",
+        "title": "Uma referência para os navegadores antigos",
+        "text": "A costa do atual Algarve foi navegada e habitada desde a Antiguidade por povos como os cónios, fenícios, cartagineses e romanos. A proeminência desta ponta servia de referência natural de navegação ao longo da costa sul da Península Ibérica."
+      },
+      {
+        "era": "Século XV",
+        "title": "Lagos e a Era dos Descobrimentos",
+        "text": "No século XV, Lagos foi um dos portos centrais dos Descobrimentos portugueses. O Infante D. Henrique viveu aqui e daqui partiram caravelas rumo ao Atlântico. Para os marinheiros, estas falésias eram a última imagem de terra ao largar e o primeiro sinal de regresso a casa."
+      },
+      {
+        "era": "1 de novembro de 1755",
+        "title": "O grande terramoto e o maremoto",
+        "text": "O terramoto de Lisboa de 1755 gerou um tsunami que atingiu duramente a costa algarvia. Em Lagos, o mar invadiu a zona baixa e grande parte da vila foi destruída, tal como registam os documentos paroquiais e a reconstrução que se seguiu."
+      },
+      {
+        "era": "1913",
+        "title": "O farol da Ponta da Piedade",
+        "text": "A ideia de construir um farol no promontório remonta a 1883, mas a obra só se concretizou em 1912-1913. O farol entrou em funcionamento a 1 de julho de 1913, erguido no local onde existira uma antiga ermida dedicada a Nossa Senhora da Piedade."
+      },
+      {
+        "era": "Século XX",
+        "title": "Do mar para o mundo",
+        "text": "Durante décadas, a costa foi cenário de pesca e comércio e, em 1917, no contexto da Primeira Guerra Mundial, de ataques de submarinos alemães a navios mercantes ao largo do Algarve. A partir dos anos 1960, o turismo algarvio fez da Ponta da Piedade uma imagem de referência a nível mundial."
+      },
+      {
+        "era": "Século XXI",
+        "title": "Proteção e visita sustentável",
+        "text": "Hoje, a visita é organizada com preocupações de conservação: passadiços elevados e miradouros protegem o solo frágil e a vegetação, enquanto as grutas continuam a ser exploradas apenas por mar, em pequenas embarcações autorizadas."
+      }
+    ]
+  },
+  "stories": {
+    "title": "Histórias e Lendas",
+    "intro": "Lendas locais, episódios históricos e curiosidades sobre a Ponta da Piedade.",
+    "kinds": {
+      "legend": "Lenda",
+      "history": "História",
+      "fact": "Facto",
+      "curiosity": "Curiosidade"
+    },
+    "items": [
+      {
+        "kind": "legend",
+        "title": "Porque se chama «Piedade»?",
+        "text": "O nome poderá estar ligado a uma antiga ermida dedicada a Nossa Senhora da Piedade que se erguia no topo do promontório — as suas ruínas terão dado lugar ao farol inaugurado em 1913. A tradição popular associa também a palavra «piedade» à compaixão e à proteção que os marinheiros invocavam antes de partir para o mar e agradeciam ao avistar novamente estas rochas."
+      },
+      {
+        "kind": "history",
+        "title": "A porta do Atlântico dos Descobrimentos",
+        "text": "Entre os séculos XV e XVI, Lagos foi um dos principais portos da expansão portuguesa. Diz-se que muitas caravelas zarparam da baía de Lagos rumo a África e ao Atlântico; para os homens do mar, a Ponta da Piedade era a última «terra firme» que viam ao partir e o marco que anunciava o regresso a casa."
+      },
+      {
+        "kind": "fact",
+        "title": "O terramoto que mudou a costa",
+        "text": "A 1 de novembro de 1755, o grande terramoto de Lisboa provocou um maremoto que varreu a costa algarvia. Em Lagos, o mar invadiu a zona baixa da vila e destruiu grande parte das habitações; a reconstrução que se seguiu deixou marcas no traçado urbano que ainda hoje se podem observar."
+      },
+      {
+        "kind": "curiosity",
+        "title": "A Grande Guerra chegou ao Algarve",
+        "text": "Em 1917, durante a Primeira Guerra Mundial, submarinos alemães operaram ao largo da costa algarvia e atacaram navios mercantes entre Sagres e o cabo de São Vicente. O conflito chegou às águas que banham esta costa, e faróis como o da Ponta da Piedade tornaram-se ainda mais importantes para a navegação."
+      },
+      {
+        "kind": "fact",
+        "title": "A vida de faroleiro",
+        "text": "Desde 1913, o farol da Ponta da Piedade foi guardado por faroleiros que muitas vezes viviam na torre com as suas famílias — uma vida dura e isolada. Com a automatização das décadas seguintes, os últimos faroleiros residentes saíram, mas o farol continua ativo e a sua luz ainda hoje orienta a navegação ao largo de Lagos."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Perguntas Frequentes",
+    "subtitle": "Respostas às dúvidas mais comuns dos visitantes.",
+    "items": [
+      {
+        "q": "A entrada na Ponta da Piedade é paga?",
+        "a": "Não. As falésias, os passadiços e os miradouros são de acesso livre e gratuito, 24 horas por dia. Apenas os passeios de barco, caiaque e outras atividades organizadas são pagos."
+      },
+      {
+        "q": "Há estacionamento?",
+        "a": "Sim. Existem parques gratuitos junto ao farol e ao longo da estrada de acesso, mas em julho e agosto enchem-se rapidamente. Alternativa: estacionar em Lagos e ir a pé ou de barco até à Ponta da Piedade."
+      },
+      {
+        "q": "Onde se apanham os barcos para as grutas?",
+        "a": "Os passeios de barco partem sobretudo da Marina de Lagos e da zona da Praia de Dona Ana/Ponta da Piedade. Preços e horários variam com a época e o estado do mar; em dias de maior procura, reserve com antecedência."
+      },
+      {
+        "q": "Posso nadar ou mergulhar nas grutas?",
+        "a": "Não é recomendado. As correntes junto às falésias são fortes e imprevisíveis e o acesso é feito por mar. Para nadar, use as praias vigiadas próximas (Dona Ana, Camilo, Batata) dentro das zonas e épocas assinaladas."
+      },
+      {
+        "q": "Há casas de banho, restaurantes ou lojas perto?",
+        "a": "Na zona do farol existem apenas serviços limitados (casas de banho públicas e pequenos pontos de venda). Restaurantes, cafés, supermercados e outros serviços encontram-se nas praias vizinhas e no centro de Lagos, a poucos minutos."
+      },
+      {
+        "q": "Quanto tempo devo reservar para a visita?",
+        "a": "Meio dia (cerca de 2 a 4 horas) é suficiente para percorrer os passadiços, descer as escadas e fazer um passeio de barco. Se quiser aproveitar o pôr do sol, considere ficar mais tempo."
+      },
+      {
+        "q": "A Ponta da Piedade é acessível a pessoas com mobilidade reduzida?",
+        "a": "Os passadiços e miradouros são acessíveis a cadeiras de rodas e carrinhos de bebé. As escadas até ao nível do mar e os barcos não são acessíveis; contacte os operadores marítimos para opções adaptadas."
+      },
+      {
+        "q": "Qual é a melhor altura para visitar?",
+        "a": "Na primavera e no outono há temperatura amena e menos gente. De manhã cedo a luz é excelente e há menos multidões; ao fim da tarde o pôr do sol é espetacular, mas o estacionamento e o movimento aumentam."
+      }
+    ]
   },
   "recommendations": {
     "title": "Explore More",
