@@ -440,7 +440,6 @@
     "precipitation": "Precipitation",
     "updated": "Updated:",
     "today": "Today",
-    "source": "Weather forecast provided by",
     "unavailable": "Weather data is currently unavailable. Please try again later.",
     "codes": {
       "clear": "Clear sky",

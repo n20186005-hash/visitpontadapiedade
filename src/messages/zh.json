@@ -440,7 +440,6 @@
     "precipitation": "降水概率",
     "updated": "更新于：",
     "today": "今天",
-    "source": "天气数据由以下服务提供",
     "unavailable": "暂时无法获取天气数据，请稍后再试。",
     "codes": {
       "clear": "晴朗",

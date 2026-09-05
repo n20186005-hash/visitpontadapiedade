@@ -15,7 +15,6 @@ type WeatherMessages = {
     precipitation: string;
     updated: string;
     today: string;
-    source: string;
     unavailable: string;
     codes: Record<string, string>;
   };
@@ -224,19 +223,6 @@ export default async function WeatherSection({ locale }: { locale: string }) {
             </div>
           </div>
         </div>
-
-        <p className="text-xs mt-6 text-center" style={{ color: 'var(--text-muted)' }}>
-          {t.source}{' '}
-          <a
-            href="https://open-meteo.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="underline"
-            style={{ color: 'var(--accent)' }}
-          >
-            Open-Meteo.com
-          </a>
-        </p>
       </div>
     </section>
   );
