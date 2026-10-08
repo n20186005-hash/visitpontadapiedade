@@ -1,17 +1,15 @@
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
-import { routing } from '@/i18n/routing';
+import { routing, SITE_URL } from '@/i18n/routing';
 import type { Metadata } from 'next';
 
-const SITE_URL = 'https://visitpontadapiedade.com';
 const MAPS_URL = 'https://maps.app.goo.gl/4bWc2hpYoZR4FZLS8';
 
 const localeMeta: Record<string, { lang: string; og: string; html: string }> = {
   zh: { lang: 'zh-CN', og: 'zh_CN', html: 'zh-CN' },
   en: { lang: 'en', og: 'en_US', html: 'en' },
   pt: { lang: 'pt', og: 'pt_PT', html: 'pt' },
-  mwl: { lang: 'mwl', og: 'pt_PT', html: 'mwl' },
 };
 
 export function generateStaticParams() {
@@ -32,12 +30,10 @@ export async function generateMetadata({
   const zhUrl = `${SITE_URL}/zh`;
   const enUrl = `${SITE_URL}/en`;
   const ptUrl = `${SITE_URL}/pt`;
-  const mwlUrl = `${SITE_URL}/mwl`;
 
   let selfUrl = ptUrl;
   if (locale === 'zh') selfUrl = zhUrl;
   else if (locale === 'en') selfUrl = enUrl;
-  else if (locale === 'mwl') selfUrl = mwlUrl;
 
   const base = '/gallery/ponta-da-piedade%20(1).jpg';
   const imageUrl = `${SITE_URL}${base}`;
@@ -51,7 +47,6 @@ export async function generateMetadata({
         'zh': zhUrl,
         'en': enUrl,
         'pt': ptUrl,
-        'mwl': mwlUrl,
         'x-default': ptUrl,
       } as Record<string, string>,
     },
@@ -100,7 +95,6 @@ export default async function LocaleLayout({
   setRequestLocale(locale);
   const messages = await getMessages();
   const meta = (messages as any).meta || {};
-  const basic = (messages as any).basicInfo || {};
 
   const langInfo = localeMeta[locale] || localeMeta.pt;
 
@@ -150,7 +144,6 @@ export default async function LocaleLayout({
           latitude: 37.079876,
           longitude: -8.671166,
         },
-        telephone: basic.phoneValue || '+351964875617',
         hasMap: MAPS_URL,
         sameAs: [
           MAPS_URL,
@@ -174,7 +167,7 @@ export default async function LocaleLayout({
         aggregateRating: {
           '@type': 'AggregateRating',
           ratingValue: '4.8',
-          reviewCount: '26811',
+          reviewCount: '28681',
           bestRating: '5',
         },
         publisher: {

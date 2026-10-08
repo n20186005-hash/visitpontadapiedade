@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Ponta da Piedade (Lagos, Algarve) - Visitor Guide & Location",
-    "description": "Complete guide to exploring Ponta da Piedade in Lagos, Portugal. Learn about boat tours, cliff walks, opening hours, transportation, and photo spots. The Algarve's most spectacular natural wonder."
+    "title": "Ponta da Piedade, Lagos: Boardwalk, Parking & Boat Tours (2026)",
+    "description": "Plan your Ponta da Piedade visit in Lagos, Algarve. Explore boardwalks, parking information, boat tours, scenic viewpoints and practical travel tips."
   },
   "header": {
     "home": "Home",
@@ -14,7 +14,7 @@
     "title": "Ponta da Piedade (Lagos)",
     "subtitle": "Stunning Rock Formations of the Algarve · Portugal's Natural Wonder",
     "rating": "4.8",
-    "reviewCount": "26,811",
+    "reviewCount": "28,681",
     "hours": "Open 24 Hours",
     "openMaps": "View Location",
     "imgAlt": "Ponta da Piedade - Main view in Lagos, Algarve, Portugal"
@@ -114,7 +114,7 @@
     "students": "Children's Boat Tour",
     "studentsPrice": "Usually discounted, approx. €10 - €15/person",
     "children": "Parking Fee",
-    "childrenPrice": "Free parking available near the lighthouse",
+    "childrenPrice": "Parking available near the lighthouse (may be limited or subject to seasonal restrictions)",
     "card": "Booking Advice",
     "cardPrice": "In peak season, it is recommended to book boat tours online in advance or compare prices at Marina de Lagos."
   },
@@ -123,7 +123,7 @@
     "airport": "From Faro Airport",
     "airportDesc": "Faro is the nearest international airport. You can rent a car and drive along the A22 highway to Lagos in about 1 hour; alternatively, take a train or bus to Lagos city center.",
     "selfDrive": "Driving",
-    "selfDriveDesc": "About a 10-minute drive from Lagos city center. Navigate to Ponta da Piedade; there is a large free parking lot at the end near the lighthouse, but it may get crowded in the afternoons during peak season.",
+    "selfDriveDesc": "About a 10-minute drive from Lagos city center. Navigate to Ponta da Piedade; some parking is available near the lighthouse, but vehicle access to the end of the road can be restricted by seasonal measures or municipal works. In peak season, consider parking in Lagos and arriving by the tourist train or boat.",
     "bus": "Public Transport and Tourist Trains",
     "busDesc": "The Tourist Train or local bus (Linha 2) from Lagos city center goes directly to Ponta da Piedade. You can also use ride-hailing apps like Uber or Bolt, which are cheap and convenient.",
     "intercity": "Walking",
@@ -135,9 +135,9 @@
   },
   "route": {
     "title": "Visiting Route",
-    "overview": "It is recommended to allocate half a day. Starting from the lighthouse parking lot, first take the wooden boardwalk on the left to enjoy the eastern coastline; then return to the central area and descend the stairs to the cliff bottom for water activities; finally, head to the right side to find the best sunset viewing spot.",
+    "overview": "It is recommended to allocate half a day. Starting from the lighthouse area (or wherever you can park), first take the wooden boardwalk on the left to enjoy the eastern coastline; then return to the central area and descend the stairs to the cliff bottom for water activities; finally, head to the right side to find the best sunset viewing spot.",
     "steps": [
-      "Arrive at the lighthouse parking lot and enter the newly built wooden boardwalk to the left.",
+      "Arrive at the lighthouse area and enter the newly built wooden boardwalk to the left.",
       "Stroll along the boardwalk, overlooking the unique rock pillars and clear seawater from various observation decks.",
       "Return to the lighthouse area and find the steep stone steps (nearly 200 steps) leading to sea level.",
       "Descend to the small pier at the bottom, feel the waves up close, or take a local small wooden boat to explore the caves.",
@@ -465,7 +465,7 @@
       },
       {
         "name": "Parking",
-        "desc": "Free car parks near the lighthouse and along the access road, although in July and August they fill up around midday and late afternoon. Paid parking at the beaches or in central Lagos is an alternative."
+        "desc": "Parking near the lighthouse and along the access road, although in July and August it fills up around midday and late afternoon; vehicle access to the end of the road can be restricted by seasonal measures or works. Paid parking at the beaches or in central Lagos is an alternative."
       },
       {
         "name": "Restaurants & cafés",
@@ -506,9 +506,9 @@
     "intro": "A glimpse of the long natural and human history behind these cliffs.",
     "items": [
       {
-        "era": "About 200 million years ago",
+        "era": "About 15 to 20 million years ago",
         "title": "A coastline carved by time",
-        "text": "The golden cliffs are made of limestone laid down in shallow seas during the Jurassic period. Over millions of years, the opening of the Atlantic Ocean, changing sea levels and erosion by waves and wind sculpted the arches, caves and stacks we admire today."
+        "text": "The golden cliffs are made of limestone laid down in shallow seas during the Miocene epoch. Over millions of years, the opening of the Atlantic Ocean, changing sea levels and erosion by waves and wind sculpted the arches, caves and stacks we admire today."
       },
       {
         "era": "Antiquity",
@@ -589,7 +589,7 @@
       },
       {
         "q": "Is there parking?",
-        "a": "Yes. There are free car parks near the lighthouse and along the access road, but in July and August they fill up quickly. Alternative: park in Lagos and walk or take a boat to Ponta da Piedade."
+        "a": "Yes. There is parking near the lighthouse and along the access road, but it fills up quickly in July and August, and vehicle access to the end of the road can be restricted by seasonal measures or works. Alternative: park in Lagos and walk or take a boat to Ponta da Piedade."
       },
       {
         "q": "Where do the cave boat tours leave from?",

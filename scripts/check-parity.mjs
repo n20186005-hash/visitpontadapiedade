@@ -3,7 +3,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const dir = path.join(path.dirname(fileURLToPath(import.meta.url)), '..', 'src', 'messages');
-const files = ['en.json', 'pt.json', 'zh.json', 'mwl.json'];
+const files = ['en.json', 'pt.json', 'zh.json'];
 
 function collect(obj, prefix = '', out = {}) {
   for (const [k, v] of Object.entries(obj)) {

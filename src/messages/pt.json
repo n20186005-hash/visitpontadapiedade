@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Ponta da Piedade (Lagos) - Guia do Visitante e Localização",
-    "description": "Guia completo para explorar a Ponta da Piedade em Lagos, Portugal. Saiba sobre passeios de barco, caminhadas pelas falésias, horários, transportes e muito mais."
+    "title": "Ponta da Piedade (Lagos): Passadiços, Acesso e Barcos | Guia 2026",
+    "description": "Visite a Ponta da Piedade em Lagos: descubra os passadiços, como chegar, onde estacionar, passeios de barco e dicas para explorar as falésias do Algarve."
   },
   "header": {
     "home": "Início",
@@ -14,7 +14,7 @@
     "title": "Ponta da Piedade (Lagos)",
     "subtitle": "Deslumbrantes Formações Rochosas do Algarve · Maravilha Natural de Portugal",
     "rating": "4.8",
-    "reviewCount": "26,811",
+    "reviewCount": "28,681",
     "hours": "Aberto 24 Horas",
     "openMaps": "Ver Localização",
     "imgAlt": "Ponta da Piedade - Vista principal em Lagos, Algarve, Portugal"
@@ -114,7 +114,7 @@
     "students": "Passeio de barco para crianças",
     "studentsPrice": "Geralmente com desconto, aprox. €10 - €15/pessoa",
     "children": "Parque de estacionamento",
-    "childrenPrice": "Estacionamento gratuito disponível junto ao farol",
+    "childrenPrice": "Estacionamento disponível perto do farol (pode ser pago ou sujeito a lotação/obras)",
     "card": "Conselhos de Reserva",
     "cardPrice": "Em época alta, recomenda-se reservar os passeios de barco online com antecedência ou comparar preços na Marina de Lagos."
   },
@@ -123,7 +123,7 @@
     "airport": "A partir do Aeroporto de Faro",
     "airportDesc": "Faro é o aeroporto internacional mais próximo. Pode alugar um carro e seguir pela autoestrada A22 até Lagos em cerca de 1 hora; em alternativa, apanhe um comboio ou autocarro até ao centro de Lagos.",
     "selfDrive": "De Carro",
-    "selfDriveDesc": "A cerca de 10 minutos de carro do centro de Lagos. Navegue para «Ponta da Piedade»; existe um grande parque de estacionamento gratuito no fim da estrada, junto ao farol, mas em época alta pode ficar cheio ao final da tarde.",
+    "selfDriveDesc": "A cerca de 10 minutos de carro do centro de Lagos. Navegue para «Ponta da Piedade». Há estacionamento perto do farol, mas o acesso de carro ao extremo da estrada pode estar sujeito a restrições sazonais ou obras do município de Lagos; em época alta, considere estacionar na cidade e vir de comboio turístico ou barco.",
     "bus": "Transportes Públicos e Comboio Turístico",
     "busDesc": "O comboio turístico ou o autocarro local (Linha 2) partem do centro de Lagos diretamente para a Ponta da Piedade. Também pode usar aplicações de transporte como Uber ou Bolt, que são baratas e convenientes.",
     "intercity": "A Pé",
@@ -135,9 +135,9 @@
   },
   "route": {
     "title": "Roteiro de Visita",
-    "overview": "Recomenda-se reservar meio dia. Começando pelo parque de estacionamento do farol, siga primeiro pelo passadiço de madeira à esquerda para apreciar a costa oriental; depois volte à zona central e desça as escadas até ao sopé das falésias para atividades na água; por fim, vá para o lado direito para encontrar o melhor local para ver o pôr do sol.",
+    "overview": "Recomenda-se reservar meio dia. Começando pela zona do farol (ou do ponto onde conseguir estacionar), siga primeiro pelo passadiço de madeira à esquerda para apreciar a costa oriental; depois volte à zona central e desça as escadas até ao sopé das falésias para atividades na água; por fim, vá para o lado direito para encontrar o melhor local para ver o pôr do sol.",
     "steps": [
-      "Chegue ao parque de estacionamento do farol e entre no passadiço de madeira recentemente construído, à esquerda.",
+      "Chegue à zona do farol e entre no passadiço de madeira recentemente construído, à esquerda.",
       "Percorra o passadiço e admire os pilares rochosos únicos e a água cristalina a partir dos vários miradouros.",
       "Volte à zona do farol e encontre as escadas de pedra íngremes (quase 200 degraus) que descem até ao nível do mar.",
       "Desça até ao pequeno cais no sopé, sinta as ondas de perto ou apanhe um pequeno barco local para explorar as grutas.",
@@ -465,7 +465,7 @@
       },
       {
         "name": "Estacionamento",
-        "desc": "Parques gratuitos junto ao farol e ao longo da estrada de acesso, embora em julho e agosto fiquem cheios ao meio-dia e ao fim da tarde. Alternativa: estacionamento pago nas praias ou no centro de Lagos."
+        "desc": "Estacionamento junto ao farol e ao longo da estrada de acesso, embora em julho e agosto fique cheio ao meio-dia e ao fim da tarde; o acesso de carro ao extremo da estrada pode estar sujeito a restrições sazonais ou obras. Alternativa: estacionamento pago nas praias ou no centro de Lagos."
       },
       {
         "name": "Restauração e cafés",
@@ -506,9 +506,9 @@
     "intro": "Um pouco da longa história natural e humana por trás destas falésias.",
     "items": [
       {
-        "era": "Há cerca de 200 milhões de anos",
+        "era": "Há cerca de 15 a 20 milhões de anos",
         "title": "Uma costa esculpida pelo tempo",
-        "text": "As falésias douradas são constituídas por calcário formado em mares pouco profundos durante o Jurássico. Ao longo de milhões de anos, a abertura do oceano Atlântico, as variações do nível do mar e a erosão das ondas e do vento esculpiram os arcos, as grutas e os pilares que hoje admiramos."
+        "text": "As falésias douradas são constituídas por calcário formado em mares pouco profundos durante o Miocénico. Ao longo de milhões de anos, a abertura do oceano Atlântico, as variações do nível do mar e a erosão das ondas e do vento esculpiram os arcos, as grutas e os pilares que hoje admiramos."
       },
       {
         "era": "Antiguidade",
@@ -589,7 +589,7 @@
       },
       {
         "q": "Há estacionamento?",
-        "a": "Sim. Existem parques gratuitos junto ao farol e ao longo da estrada de acesso, mas em julho e agosto enchem-se rapidamente. Alternativa: estacionar em Lagos e ir a pé ou de barco até à Ponta da Piedade."
+        "a": "Sim. Há estacionamento perto do farol e ao longo da estrada de acesso, mas em julho e agosto enche rapidamente e o acesso de carro ao extremo da estrada pode estar sujeito a restrições sazonais ou obras. Alternativa: estacionar em Lagos e ir a pé ou de barco até à Ponta da Piedade."
       },
       {
         "q": "Onde se apanham os barcos para as grutas?",

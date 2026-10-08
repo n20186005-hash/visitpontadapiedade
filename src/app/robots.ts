@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://visitpontadapiedade.com/sitemap.xml',
+    sitemap: 'https://www.visitpontadapiedade.com/sitemap.xml',
   };
 }

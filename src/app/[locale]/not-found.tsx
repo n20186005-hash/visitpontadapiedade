@@ -21,12 +21,6 @@ const COPY: Record<string, { title: string; text: string; back: string; home: st
     back: '返回首页',
     home: '/zh',
   },
-  mwl: {
-    title: 'Page Not Found',
-    text: 'We could not find the page you were looking for. The content may have moved.',
-    back: 'Back to homepage',
-    home: '/en',
-  },
 };
 
 export default function NotFound() {

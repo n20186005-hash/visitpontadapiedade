@@ -9,12 +9,11 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const messages = (await import(`@/messages/${locale}.json`)).default as any;
-  const siteUrl = 'https://visitpontadapiedade.com';
+  const siteUrl = 'https://www.visitpontadapiedade.com';
   const paths: Record<string, string> = {
     zh: '/zh/cookie-settings',
     en: '/en/cookie-settings',
     pt: '/pt/cookie-settings',
-    mwl: '/mwl/cookie-settings',
   };
   const selfPath = paths[locale] || paths.pt;
   const selfUrl = `${siteUrl}${selfPath}`;
@@ -27,7 +26,6 @@ export async function generateMetadata({
         zh: `${siteUrl}${paths.zh}`,
         en: `${siteUrl}${paths.en}`,
         pt: `${siteUrl}${paths.pt}`,
-        mwl: `${siteUrl}${paths.mwl}`,
         'x-default': `${siteUrl}${paths.pt}`,
       } as Record<string, string>,
     },

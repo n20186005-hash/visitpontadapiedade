@@ -1,13 +1,13 @@
-import { useTranslations, useMessages } from 'next-intl';
+import { useTranslations } from 'next-intl';
 
 function Stars({ count }: { count: number }) {
   return (
-    <div className="flex gap-0.5">
+    <div className="flex gap-0.5" aria-hidden="true">
       {[1, 2, 3, 4, 5].map((i) => (
         <svg
           key={i}
-          width="14"
-          height="14"
+          width="18"
+          height="18"
           viewBox="0 0 24 24"
           fill={i <= count ? '#f0b429' : 'var(--border-color)'}
           stroke="none"
@@ -21,13 +21,7 @@ function Stars({ count }: { count: number }) {
 
 export default function Reviews() {
   const t = useTranslations('reviews');
-  const messages = useMessages() as any;
-  const items = (messages?.reviews?.items || []) as Array<{
-    name: string;
-    date: string;
-    rating: number;
-    text: string;
-  }>;
+  const tHero = useTranslations('hero');
 
   return (
     <section id="reviews" className="section-padding">
@@ -40,51 +34,35 @@ export default function Reviews() {
         </h2>
         <div className="w-12 h-0.5 mb-8" style={{ background: 'var(--accent)' }} />
 
-        <p
-          className="text-sm leading-relaxed mb-10 max-w-2xl"
-          style={{ color: 'var(--text-muted)' }}
+        <div
+          className="rounded-2xl p-6 sm:p-8 mb-8 flex flex-col sm:flex-row sm:items-center gap-6"
+          style={{ background: 'var(--card-bg)', border: '1px solid var(--border-color)' }}
         >
-          {t('declaration')}
-        </p>
-
-        <div className="grid sm:grid-cols-2 gap-4 sm:gap-6 mb-8">
-          {items.map((review, i) => (
-            <div
-              key={i}
-              className="rounded-xl p-5 sm:p-6 transition-shadow hover:shadow-md"
-              style={{
-                background: 'var(--card-bg)',
-                boxShadow: 'var(--card-shadow)',
-                border: '1px solid var(--border-color)',
-              }}
-            >
-              <div className="flex items-start justify-between mb-3">
-                <div>
-                  <div className="flex items-center gap-2 mb-1">
-                    <div
-                      className="w-8 h-8 rounded-full flex items-center justify-center text-sm font-semibold text-white"
-                      style={{ background: 'var(--accent)' }}
-                    >
-                      {review.name.charAt(0)}
-                    </div>
-                    <span
-                      className="text-sm font-semibold"
-                      style={{ color: 'var(--text-primary)' }}
-                    >
-                      {review.name}
-                    </span>
-                  </div>
-                </div>
-                <span className="text-xs" style={{ color: 'var(--text-muted)' }}>
-                  {review.date}
-                </span>
-              </div>
-              <Stars count={review.rating} />
-              <p className="text-sm mt-3 leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
-                {review.text}
-              </p>
+          <div className="flex flex-col items-center sm:items-start gap-2 sm:w-48 shrink-0">
+            <div className="flex items-baseline gap-2">
+              <span
+                className="font-display text-5xl font-bold"
+                style={{ color: 'var(--accent)' }}
+              >
+                {tHero('rating')}
+              </span>
+              <span className="text-lg" style={{ color: 'var(--text-muted)' }}>
+                / 5
+              </span>
             </div>
-          ))}
+            <Stars count={Math.round(Number(tHero('rating')) || 5)} />
+            <span className="text-sm" style={{ color: 'var(--text-muted)' }}>
+              {tHero('reviewCount')} · Google
+            </span>
+          </div>
+          <div className="flex-1">
+            <p
+              className="text-sm leading-relaxed"
+              style={{ color: 'var(--text-secondary)' }}
+            >
+              {t('declaration')}
+            </p>
+          </div>
         </div>
 
         {/* More reviews link — arrow only */}

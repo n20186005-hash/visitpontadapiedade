@@ -53,7 +53,6 @@ const INTl_LOCALE: Record<string, string> = {
   zh: 'zh-CN',
   en: 'en-US',
   pt: 'pt-PT',
-  mwl: 'pt-PT',
 };
 
 function weatherCategory(code: number): string {
