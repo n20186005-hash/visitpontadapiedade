@@ -25,6 +25,30 @@ export default async function NearbyPlacePage({params}:{params:RouteParams}) {
   setRequestLocale(locale);
   const related=PLACES.filter(p=>p.slug!==slug).slice(0,6);
   const isBuilt=place.category==='Lighthouse landmark'||place.category==='Coastal boardwalk'||place.category==='Scenic rest area';
+  const isLighthouse=place.slug==='farol-ponta-da-piedade';
+  const isBeach=['praia-dos-pinheiros','viewpoint-praia-do-camilo','miradouro-praia-do-canavial'].includes(place.slug);
+  const isVisitorFacility=['parking-ponta-da-piedade','passadicos-ponta-da-piedade','wooden-platform-picnic-area'].includes(place.slug);
+  const management=isLighthouse ? {
+    heading:'About Farol da Ponta da Piedade',
+    text:'Farol da Ponta da Piedade belongs to Portugal’s national maritime signalling network, with technical responsibility held by the Direção de Faróis, part of the Direção-Geral da Autoridade Marítima. First lit in 1913, the lighthouse reflects Lagos’s long relationship with Atlantic navigation. The surrounding public coastal paths form part of the wider Ponta da Piedade area, where Lagos Municipality has led improvements to pedestrian access and viewpoints. The lighthouse is an operational navigation facility, so access to its interior is separate from visiting the public headland.',
+    source:'Direção de Faróis — lighthouse history and administration',
+    href:'https://www.amn.pt/DF/Paginas/FaroldaPontadaPiedade.aspx',
+  } : isVisitorFacility ? {
+    heading:`About ${place.name} and its management`,
+    text:`The Municipality of Lagos (Câmara Municipal de Lagos) is the public authority leading the renewal of pedestrian routes, viewing platforms, road access and parking around Ponta da Piedade. The municipal programme was designed to improve safe access while reducing uncontrolled trampling and erosion of the fragile cliff landscape. ${place.name} is part of this wider visitor-access setting. Individual facilities may have separate operating arrangements, so follow the current municipal and on-site notices.`,
+    source:'Municipality of Lagos — Ponta da Piedade improvement programme',
+    href:'https://cm-lagos.pt/municipio/noticias/10900-avanca-a-requalificacao-e-valorizacao-do-troco-de-costa-entre-o-farol-da-ponta-da-piedade-e-a-praia-do-pinhao',
+  } : isBeach ? {
+    heading:`About ${place.name} and coastal management`,
+    text:`${place.name} lies within the public coastal environment of Lagos rather than a separately staffed attraction. Lagos Municipality undertakes municipal beach and access-area cleaning and has invested in safer coastal walking routes. Portugal’s coastal public domain also involves the Agência Portuguesa do Ambiente (APA) and the Autoridade Marítima Nacional, alongside municipalities, in areas such as shoreline use and beach safety. This shared framework protects public access while respecting the cliffs and beach environment.`,
+    source:'Portuguese Environment Agency — public beach access and responsible authorities',
+    href:'https://apambiente.pt/destaque2/ocupacao-de-areas-nao-concessionadas-nas-praias-balneares',
+  } : {
+    heading:`About ${place.name} and its stewardship`,
+    text:`${place.name} is a named viewing location within the Ponta da Piedade coastline, not a separately operated visitor attraction. The Municipality of Lagos has led the improvement of public paths and viewpoints on the headland, helping visitors enjoy the cliffs while limiting erosion and unsafe access. The natural shoreline remains part of Portugal’s wider coastal public domain, where environmental and maritime authorities also have responsibilities. The named viewpoint itself should not be mistaken for an independently managed venue.`,
+    source:'Municipality of Lagos — coastal pathways and viewpoint improvements',
+    href:'https://www.cm-lagos.pt/index.php?Itemid=657&cid=17%3Anoticias&id=10143%3Aavanca-nova-etapa-na-requalificacao-da-ponta-da-piedade&lang=pt&option=com_flexicontent&view=item',
+  };
   const faq=[
     [`Where exactly is ${place.name}?`,`Use the dedicated map link on this page. The named location sits in the Ponta da Piedade/Lagos coastal area, Algarve, Portugal; the pin is not replaced by the generic lighthouse map.`],
     [`What makes ${place.name} worth visiting?`,place.feature],
@@ -48,6 +72,12 @@ export default async function NearbyPlacePage({params}:{params:RouteParams}) {
   return <><Header/><main className="max-w-5xl mx-auto px-4 sm:px-6 pt-24 pb-16">
     <nav aria-label="Breadcrumb" className="text-sm mb-8" style={{color:'var(--text-muted)'}}><a href="/en" style={{color:'var(--accent)'}}>Ponta da Piedade</a> / {place.name}</nav>
     <div className="grid md:grid-cols-2 gap-8 items-center mb-14"><div><p className="uppercase tracking-wide text-sm mb-3" style={{color:'var(--accent)'}}>{place.category} · Lagos, Algarve</p><h1 className="font-display text-4xl sm:text-5xl font-semibold mb-5" style={{color:'var(--text-primary)'}}>{place.name}</h1><p className="text-lg leading-relaxed mb-6" style={{color:'var(--text-secondary)'}}>{place.feature}</p><a href={place.map} rel="noopener noreferrer" target="_blank" className="inline-flex rounded-full px-6 py-3 text-white font-medium" style={{background:'var(--accent)'}}>View exact location on Google Maps ↗</a></div><figure><Image src={`/nearby/${slug}.jpg`} width={960} height={640} alt={`Coastal scenery associated with ${place.name}, Lagos`} className="rounded-2xl w-full h-auto object-cover"/><figcaption className="text-xs mt-2" style={{color:'var(--text-muted)'}}>Real photograph of the named site or its surrounding Ponta da Piedade coastline; some small named features are not identifiable in this wider view. Source: Wikimedia Commons.</figcaption></figure></div>
+    <section className="mb-14 rounded-2xl p-7 sm:p-9" style={{background:'var(--card-bg)',border:'1px solid var(--border-color)'}} aria-labelledby="management-heading">
+      <p className="uppercase tracking-wider text-sm font-medium mb-3" style={{color:'var(--accent)'}}>About &amp; stewardship</p>
+      <h2 id="management-heading" className="font-display text-2xl sm:text-3xl font-semibold mb-5" style={{color:'var(--text-primary)'}}>{management.heading}</h2>
+      <p className="leading-relaxed text-base" style={{color:'var(--text-secondary)'}}>{management.text}</p>
+      <a className="inline-block mt-5 text-sm font-medium underline" href={management.href} target="_blank" rel="noopener noreferrer" style={{color:'var(--accent)'}}>Public authority source: {management.source} ↗</a>
+    </section>
     <section className="mb-14"><h2 className="font-display text-2xl font-semibold mb-5">At a glance</h2><div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">{[['Type',place.category],['Area','Lagos, Algarve, Portugal'],['Suggested stop','15–30 minutes plus walking time'],['Access','Follow current local signs']].map(([k,v])=><div key={k} className="p-5 rounded-xl" style={{background:'var(--card-bg)',border:'1px solid var(--border-color)'}}><p className="text-sm mb-2" style={{color:'var(--text-muted)'}}>{k}</p><p className="font-semibold">{v}</p></div>)}</div></section>
     <div className="max-w-3xl space-y-10">{sections.map(s=><section key={s.heading}><h2 className="font-display text-2xl font-semibold mb-3">{s.heading}</h2><p className="leading-relaxed whitespace-pre-line" style={{color:'var(--text-secondary)'}}>{s.text}</p></section>)}
     <section><h2 className="font-display text-2xl font-semibold mb-4">Frequently asked questions</h2><div className="space-y-4">{faq.map(([q,a])=><div key={q} className="rounded-xl p-5" style={{background:'var(--card-bg)',border:'1px solid var(--border-color)'}}><h3 className="font-semibold mb-2">{q}</h3><p className="leading-relaxed" style={{color:'var(--text-secondary)'}}>{a}</p></div>)}</div></section>
