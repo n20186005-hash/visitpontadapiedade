@@ -1,5 +1,6 @@
 import type { MetadataRoute } from 'next';
 import { SITE_URL, TOPIC_PATHS } from '@/i18n/routing';
+import { PLACES } from '@/lib/places';
 
 const locales = ['zh', 'en', 'pt'];
 const subPaths = ['', '/cookie-settings', '/privacy-policy', '/terms-of-service'];
@@ -44,5 +45,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     });
   }
 
+  for (const place of PLACES) {
+    entries.push({ url: `${SITE_URL}/en/nearby/${place.slug}`, lastModified: new Date('2026-11-11'), changeFrequency: 'monthly', priority: 0.7 });
+  }
   return entries;
 }

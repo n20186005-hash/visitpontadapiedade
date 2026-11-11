@@ -20,6 +20,7 @@ import FAQSection from '@/components/FAQSection';
 import TopicLinks from '@/components/TopicLinks';
 import SourcesSection from '@/components/SourcesSection';
 import MapEmbed from '@/components/MapEmbed';
+import type { TopicLocale } from '@/lib/topics';
 import Footer from '@/components/Footer';
 
 export default async function HomePage({
@@ -65,7 +66,7 @@ export default async function HomePage({
         <Gallery />
         <Reviews />
         <FAQSection />
-        <TopicLinks locale={locale} />
+        <TopicLinks locale={locale as TopicLocale} />
         <SourcesSection />
         <MapEmbed />
       </main>

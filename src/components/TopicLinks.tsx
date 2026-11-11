@@ -1,4 +1,5 @@
 import { TOPICS, type TopicLocale } from '@/lib/topics';
+import { PLACES } from '@/lib/places';
 
 const headings: Record<TopicLocale, string> = {
   pt: 'Guias relacionados',
@@ -66,6 +67,13 @@ export default function TopicLinks({ locale }: { locale: TopicLocale }) {
                   <polyline points="12 5 19 12 12 19" />
                 </svg>
               </span>
+            </a>
+          ))}
+          {locale === 'en' && PLACES.map((place) => (
+            <a key={place.slug} href={`/en/nearby/${place.slug}`} className="group rounded-2xl p-6 transition-shadow hover:shadow-md flex flex-col" style={{ background: 'var(--card-bg)', border: '1px solid var(--border-color)' }}>
+              <div className="font-display text-lg font-semibold mb-2 group-hover:underline" style={{ color: 'var(--accent)' }}>{place.name}</div>
+              <p className="text-sm leading-relaxed flex-1" style={{ color: 'var(--text-secondary)' }}>{place.category} · {place.feature}</p>
+              <span className="mt-4 text-sm font-medium" style={{ color: 'var(--accent)' }}>Read guide →</span>
             </a>
           ))}
         </div>
